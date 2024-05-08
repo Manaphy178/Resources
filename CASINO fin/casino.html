@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="ASSETS/css/casino.css" />
     <script defer src="ASSETS/js/casino.js"></script>
+    <script defer src="ASSETS/js/jquery.js"></script>
     <title>Cases</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
         <span class="bordeCaja"></span>
         <div class="caja">
           <div class="imagen">
-            <img src="https://dummyimage.com/100x150" alt="" />
+            <img src="https://picsum.photos/100/150/?random" alt="" />
           </div>
           <div class="cajaTitulo">Titulo</div>
           <div class="precio">€€€€€</div>
@@ -23,7 +24,7 @@
         <span class="bordeCaja"></span>
         <div class="caja">
           <div class="imagen">
-            <img src="https://dummyimage.com/100x150" alt="" />
+            <img src="https://picsum.photos/100/150/?random" alt="" />
           </div>
           <div class="cajaTitulo">Titulo</div>
           <div class="precio">€€€€€</div>
@@ -33,7 +34,7 @@
         <span class="bordeCaja"></span>
         <div class="caja">
           <div class="imagen">
-            <img src="https://dummyimage.com/100x150" alt="" />
+            <img src="https://picsum.photos/100/150/?random" alt="" />
           </div>
           <div class="cajaTitulo">Titulo</div>
           <div class="precio">€€€€€</div>
@@ -43,7 +44,7 @@
         <span class="bordeCaja"></span>
         <div class="caja">
           <div class="imagen">
-            <img src="https://dummyimage.com/100x150" alt="" />
+            <img src="https://picsum.photos/100/150/?random" alt="" />
           </div>
           <div class="cajaTitulo">Titulo</div>
           <div class="precio">€€€€€</div>
@@ -51,33 +52,127 @@
       </a>
       <!-- Esto hay que retocar mucho -->
     </section>
-
     <br /><br /><br />
-    <section class="ruleta">
-      <div class="conveyor anim">
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <img src="https://dummyimage.com/100x150" class="izq" alt="" id="itemRoulette"/>
-        <!-- En java hacer bucle que el antepenultimo objeto sea el objeto que le toque 
-        haciendo un bucle y haciendo que el num 37 sea el elegido-->
+    <!-- Bucle java por cada objeto de la caja seleccionada -->
+    <!-- <section class="ruleta">
+      <div class="conveyor">
+        <span class="linea">&nbsp;</span>
+        <img
+          src="https://picsum.photos/201/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/202/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/203/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/204/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/205/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/206/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/207/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/208/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/209/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/210/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/211/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/200/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/200/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/200/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/200/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/200/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/200/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
+        <img
+          src="https://picsum.photos/200/150/?random"
+          alt=""
+          class="imgCase"
+          id="itemRoulette"
+        />
       </div>
-    </section>
-    <br>
-    <button id="stop">parar</button>
+    </section> -->
+    <!-- En java hacer bucle que el antepenultimo objeto sea el objeto que le toque 
+    haciendo un bucle y haciendo que el num 37 sea el elegido-->
+    <br /><br />
+
+    <canvas id="canvas" class="canvas" width=""></canvas>
+<br>
+    <button id="start" style="margin: 0 auto;">Tirar</button>
   </body>
 </html>
