@@ -1,0 +1,108 @@
+.cajas {
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.linkCaja {
+  text-decoration: none;
+  color: black;
+}
+.caja {
+  background-color: red;
+  min-width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.imagen,
+.cajaTitulo,
+.precio {
+  margin-top: 0.7rem;
+}
+.cajaTitulo {
+  text-align: center;
+}
+.precio {
+  color: lightgreen;
+  text-align: center;
+}
+
+.bordeCaja {
+  background-image: linear-gradient(
+    rgba(27, 25, 46, 0.3) 40%,
+    rgba(27, 25, 46, 0)
+  );
+  background-color: linear;
+}
+.linkCaja:hover .bordeCaja {
+  opacity: 1;
+}
+/* Esto se supone que hace un efecto guapo */
+
+.conveyor {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  gap: 0.4rem;
+  /* margin-left: -1   px;
+  transition: all 6s cubic-bezier(0, 0.11, 0.33, 1) 0s  ; */
+}
+.izq {
+  animation: run 100ms linear infinite;
+  /* animation-play-state: paused; */
+}
+.izqParar{
+    animation: parar 150ms ease-out 10;
+}
+.pausa{
+    animation-play-state: paused;
+}
+
+@keyframes run {
+  from {
+    transform: translate(0%);
+  }
+  to {
+    transform: translate(-100%);
+  }
+}
+@keyframes parar{
+    0% {
+        transform: translate(-115%);
+    }
+    15% {
+        transform: translate(-125%);
+    }
+    25% {
+        transform: translate(-135%);
+    }
+    35% {
+        transform: translate(-145%);
+    }
+    45% {
+        transform: translate(-155%);
+    }
+    55% {
+        transform: translate(-165%);
+    }
+    65% {
+        transform: translate(-175%);
+    }
+    75% {
+        transform: translate(-185%);
+    }
+    85% {
+        transform: translate(-195%);
+    }
+    90% {
+        transform: translate(-205%);
+    }
+    100% {
+        transform: translate(-215%);
+    }
+    
+}
