@@ -57,18 +57,19 @@ a {
 }
 
 .header .logo img{
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .header .userThings {
-  display: block;
+  display: flex;
   float: right;
   padding: 10px 20px;
+  gap: 1.5rem;
 }
-
-.header .userThings{
-  gap: 1rem;
+.header .userThings img{
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 /* menu */
@@ -195,17 +196,17 @@ footer section .section-title {
     text-transform: uppercase;
 }
 footer #footer {
-    background: #000000 !important;
+    background: #F5F5F7 !important;
 }
 footer #footer h5{
   padding-left: 10px;
-    border-left: 3px solid #eeeeee;
+    border-left: 3px solid #3f3f3f;
     padding-bottom: 6px;
     margin-bottom: 20px;
-    color:#ffffff;
+    color:#000000;
 }
 footer #footer a {
-    color: #ffffff;
+    color: #3f3f3f;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -227,10 +228,10 @@ footer #footer ul.social li:hover a i {
 }
 footer #footer ul.social li a,
 footer #footer ul.quick-links li a{
-  color:#ffffff;
+  color:#3f3f3f;
 }
 footer #footer ul.social li a:hover{
-  color:#eeeeee;
+  color:#3f3f3f;
 }
 footer #footer ul.quick-links li{
   padding: 3px 0;
