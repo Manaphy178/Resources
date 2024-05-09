@@ -7,17 +7,16 @@
 .container-carousel {
     position: relative;
     width: 100%; /* Cambiado a 100% para que sea responsive */
-    height: 95vh; /* Altura relativa al tamaño de la pantalla */
+    height: 90vh; /* Altura relativa al tamaño de la pantalla */
     background-color: #e0e0e0;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
-    border-radius: 15px;
     overflow: hidden;
     overflow-x: hidden; /* Evita el desplazamiento horizontal */
 }
 
 .carruseles {
     width: 400%; /* Ancho establecido de nuevo a 400% */
-    height: 95vh;
+    height: 90vh;
     display: flex;
 }
 
@@ -29,7 +28,6 @@
     width: 100%; /* Cambiado para que las imágenes sean responsive */
     height: 100%; /* Ajustar la altura automáticamente según el ancho */
     object-fit: cover;
-    border-radius: 15px;
 }
 
 .btn-left,

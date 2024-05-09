@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+    background-color: blue;
+    display: flex;
+}
+main .ShopContent{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+main .ShopContent .topbar{
+    height: 5rem;
+    background-color: blueviolet;
+}
+main .ShopContent .productContainer{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+aside{
+    grid-area: aside;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+aside .asideContent{
+    width: 80%;
+    background-color: yellow;
+}
+footer{
+    grid-area: footer;
+}

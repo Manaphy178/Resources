@@ -20,7 +20,8 @@ a {
   flex-wrap: wrap;
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  position:fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   z-index: 1000;
   justify-content: space-around;
@@ -38,9 +39,9 @@ a {
 
 .header li a {
   display: block;
-  padding: 20px 20px;
+  padding: 1rem;
   text-decoration: none;
-  color: #5e5e5e;
+  color: #727272;
 }
 
 .header li a:hover,
@@ -49,7 +50,7 @@ a {
 }
 
 .header .logo {
-  display: block;
+  display: flex;
   float: left;
   font-size: 2em;
   padding: 10px 20px;
@@ -59,6 +60,7 @@ a {
 .header .logo img{
   width: 2rem;
   height: 2rem;
+
 }
 
 .header .userThings {
@@ -73,7 +75,6 @@ a {
 }
 
 /* menu */
-
 .header .menu {
   clear: both;
   max-height: 0;
@@ -85,15 +86,17 @@ a {
   display: inline-flex;
   cursor: pointer;
   float: right;
-  padding: 28px 20px;
   position: relative;
   user-select: none;
+  padding: 1rem;
+  margin: 0.5rem;
+
 }
 .header .menu-icon .navicon {
   width: 4rem;
   height: 4rem;
   background: #333;
-  display: block;
+  display: flex;
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
