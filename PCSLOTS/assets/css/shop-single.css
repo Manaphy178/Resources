@@ -1,0 +1,19 @@
+main{
+    min-height: 100vh;
+}
+main .product{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-areas: 
+    "productImg productInfo";
+}
+main .product .productImages{
+    grid-area: productImg;
+    height: 100vh;
+    background-color: rgb(255, 0, 0);
+}
+main .product .productInformation{
+    grid-area: productInfo;
+    height: 100vh;
+    background-color: aqua;
+}

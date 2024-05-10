@@ -213,13 +213,12 @@ footer #footer a {
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-
 }
 footer #footer ul.social li{
   padding: 3px 0;
 }
 footer #footer ul.social li a i {
-    margin-right: 5px;
+  margin-right: 5px;
   font-size:25px;
   -webkit-transition: .5s all ease;
   -moz-transition: .5s all ease;
