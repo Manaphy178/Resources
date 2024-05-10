@@ -12,32 +12,53 @@ header{
 }
 main{
     grid-area: main;
-    background-color: blue;
     display: flex;
 }
 main .ShopContent{
-    width: 90%;
     display: flex;
     flex-direction: column;
 }
 main .ShopContent .topbar{
+    display: flex;
     height: 5rem;
-    background-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    padding: 1rem 2rem 1rem 2rem;
+}
+main .ShopContent .topbar .sortBy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+main .ShopContent .topbar .sortBy h4{
+    margin: 1rem;
+    font-size: 1rem;
+}
+main .ShopContent .topbar .sortBy .sortByList{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+    list-style-type: none;
 }
 main .ShopContent .productContainer{
+    width: 90%;
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 aside{
     grid-area: aside;
-    background-color: green;
+    border-right: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items:end;
 }
 aside .asideContent{
     width: 80%;
+    padding: 7rem;
     background-color: yellow;
 }
 footer{
