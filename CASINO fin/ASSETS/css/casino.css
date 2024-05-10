@@ -90,6 +90,9 @@
   /* height: 100%; */
   background-color: blue;
 }
+.imgsNum{
+  display: none;
+}
 
 /* @keyframes run {
   from {
