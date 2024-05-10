@@ -85,7 +85,13 @@
 .canvas{
   background-color: rgb(197, 138, 9);
 }
-@keyframes run {
+.canv{
+  min-width: 100%;
+  /* height: 100%; */
+  background-color: blue;
+}
+
+/* @keyframes run {
   from {
     transform: translate(0%);
   }
@@ -156,4 +162,4 @@
   100% {
     transform: translate(-223%);
   }
-}
+} */
