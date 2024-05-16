@@ -150,8 +150,8 @@ a {
 }
 
 /* 48em = 768px */
-
 @media (min-width: 52em) {
+
   .header{
     display: flex;
     align-items: center;
@@ -182,7 +182,6 @@ a {
   .header .menu-icon {
     float: right;
   }
-
 }
 /* END HEADER */
 
