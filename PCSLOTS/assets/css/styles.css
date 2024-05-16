@@ -179,12 +179,11 @@ a {
     flex-direction: row;
     justify-content: flex-start;
   }
-
   .header .menu-icon {
-    float: right; /* Asegúrate de quitar esta propiedad en pantallas más grandes */
+    float: right;
   }
-}
 
+}
 /* END HEADER */
 
 /* START FOOTER */
