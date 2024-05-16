@@ -1,94 +1,80 @@
 const start = document.querySelector("#start");
 const canvas = document.getElementById("canvas");
-canvas.setAttribute("width", window.screen.width);
+const canvDiv = document.querySelector("#canv");
+canvas.setAttribute("width", window.innerWidth);
 let ctx = canvas.getContext("2d");
+let ultimoItemIdColisionado = null;
+let colisionDetectada = false;
 let movement = false;
+let numLongitud = 88;
 let timer = setInterval(pintar, 1);
 let velocidad = 0;
 let vez = 1;
+let lineaImg = document.getElementById("linea");
+
 // Aqui hay que poner codigo de java como una puta
 // Ya sea para crear todas las imagenes posibles o para ir cambiandolas rara vez
-const producto1 = document.getElementById("itemCaja1");
-const producto2 = document.getElementById("itemCaja2");
-let xproduct1 = 0;
-let xproduct2 = 200;
-let xproduct3 = 400;
-let xproduct4 = 600;
-let xproduct5 = 800;
-let xproduct6 = 1000;
-let xproduct7 = 1200;
-let xproduct8 = 1400;
-let xproduct9 = 1600;
-let xproduct10 = 1800;
-let xproduct11 = 2000;
-let xproduct12 = 2200;
-item1 = crearItem(0, 0, 200, 150);
-item2 = crearItem(item1.x+200, 0, 200, 150);
-item3 = crearItem(item2.x+200, 0, 200, 150);
-item4 = crearItem(item3.x+200, 0, 200, 150);
-item5 = crearItem(item4.x+200, 0, 200, 150);
-item6 = crearItem(item5.x+200, 0, 200, 150);
-item7 = crearItem(item6.x+200, 0, 200, 150);
-item8 = crearItem(item7.x+200, 0, 200, 150);
-item9 = crearItem(item8.x+200, 0, 200, 150);
-item10 = crearItem(item9.x+200, 0, 200, 150);
-item11 = crearItem(item10.x+200, 0, 200, 150);
-item12 = crearItem(item11.x+200, 0, 200, 150);
-item13 = crearItem(item12.x+200, 0, 200, 150);
-item14 = crearItem(item13.x+200, 0, 200, 150);
-// item15 = crearItem(2800, 0, 200, 150);
-// item16 = crearItem(3000, 0, 200, 150);
-// item17 = crearItem(3200, 0, 200, 150);
-const items = [
-  item1,
-  item2,
-  item3,
-  item4,
-  item5,
-  item6,
-  item7,
-  item8,
-  item9,
-  item10,
-  item11,
-  item12,
-  item13,
-  item14,
-  // ,item15,
-  // item16,
-  // item17,
-];
+
+// Van a ser siempre las misma longitud de imagenes y de items
+
+const items = [];
+for (let i = 0; i < numLongitud; i++) {
+  const item = crearItem(i, i * 200, 0, 200, 150, "black");
+  items.push(item);
+}
+const imgs = [];
+for (let i = 1; i <= numLongitud; i++) {
+  const img = document.createElement("img");
+  img.id = `img${i}`;
+  img.src = `https://dummyimage.com/100x100&text=${i}`;
+  img.alt = `Image ${i}`;
+  document.getElementById("container").appendChild(img);
+  imgs.push(img);
+}
+linea = crearItem(canvas.width / 2, 0, 10, 150, "black");
+
 function pintar() {
+  ctx.canvas.width = window.innerWidth;
+  linea.x = canvas.width / 2;
   ctx.clearRect(100, 100, canvas.width, canvas.height);
-  ctx.drawImage(producto1, item1.x, 0, 200, 150);
-  ctx.drawImage(producto2, item2.x, 0, 200, 150);
-  ctx.drawImage(producto1, item3.x, 0, 200, 150);
-  ctx.drawImage(producto2, item4.x, 0, 200, 150);
-  ctx.drawImage(producto1, item5.x, 0, 200, 150);
-  ctx.drawImage(producto2, item6.x, 0, 200, 150);
-  ctx.drawImage(producto1, item7.x, 0, 200, 150);
-  ctx.drawImage(producto2, item8.x, 0, 200, 150);
-  ctx.drawImage(producto1, item9.x, 0, 200, 150);
-  ctx.drawImage(producto2, item10.x, 0, 200, 150);
-  ctx.drawImage(producto1, item11.x, 0, 200, 150);
-  ctx.drawImage(producto2, item12.x, 0, 200, 150);
-  ctx.drawImage(producto1, item13.x, 0, 200, 150);
-  ctx.drawImage(producto2, item14.x, 0, 200, 150);
-  // ctx.drawImage(producto1, item15.x, 0, 200, 150);
-  // ctx.drawImage(producto1, item16.x, 0, 200, 150);
-  // ctx.drawImage(producto1, item17.x, 0, 200, 150);
+  for (let i = 0; i < items.length; i++) {
+    ctx.drawImage(
+      imgs[i],
+      items[i].x,
+      items[i].y,
+      items[i].ancho,
+      items[i].alto
+    );
+  }
+  ctx.drawImage(lineaImg, linea.x, 0, 10, 150);
   if (movement) {
     items.forEach((item) => {
+      if (!colisionDetectada && colision(item)) {
+        colisionDetectada = true;
+        if (vez > 0) {
+          vez = 0;
+          let ruleta = setTimeout(frenar, 800);
+        }
+        console.log(item.id);
+        ultimoItemIdColisionado = item.id;
+      }
       mover(item);
     });
-    if (velocidad > 0 && vez > 0) {
-      vez = 0;
-      let irFrenando = setTimeout(frenar, 750);
+    ctx.clearRect(100, 100, canvas.width, canvas.height);
+    for (let i = 0; i < items.length; i++) {
+      ctx.drawImage(
+        imgs[i],
+        items[i].x,
+        items[i].y,
+        items[i].ancho,
+        items[i].alto
+      );
     }
-  } else if (velocidad == 0) {
+    ctx.drawImage(lineaImg, linea.x, 0, 10, 150);
+  }
+  if (velocidad == 0) {
     start.style.display = "block";
   }
-
   start.addEventListener("click", () => {
     velocidad = 20;
     start.style.display = "none";
@@ -98,57 +84,53 @@ function pintar() {
 
 function mover(item) {
   if (item.x <= -200) {
-    item.x = canvas.width+200;
+    var previousItem = items[items.indexOf(item) - 1];
+    if (item.id == 0) {
+      previousItem = items[items.length - 1];
+    }
+    const gap = 200;
+    item.x = previousItem.x + gap;
   } else {
     item.x -= velocidad;
   }
+
+  if (!colision(item)) {
+    colisionDetectada = false;
+  }
 }
-function crearItem(xItem, yItem, anchoItem, altoItem) {
+
+function crearItem(idItem, xItem, yItem, anchoItem, altoItem, colorItem) {
   let item = {
+    id: idItem,
     x: xItem,
     y: yItem,
     ancho: anchoItem,
     alto: altoItem,
+    color: colorItem,
   };
   return item;
 }
-function frenar() {
-  console.log("algo");
 
+function frenar() {
   velocidad -= 2;
   if (velocidad == 0) {
     movement = false;
+    console.log(
+      "El último item que colisionó tiene el ID:",
+      ultimoItemIdColisionado
+    );
   }
   vez = 1;
 }
 
-// start.addEventListener("click", () => {
-//   start.style.display = "none";
-//   const items = document.querySelectorAll("#itemRoulette");
-//   items.forEach((item) => {
-//     item.classList.add("izq");
-//     item.classList.remove("izqParar");
-//     item.classList.remove("pausa");
-//   });
-//   let ruleta = setTimeout(parar, 3000);
-// });
-
-// function parar() {
-//   console.log("para");
-//   const items = document.querySelectorAll("#itemRoulette");
-//   items.forEach((item) => {
-//     item.classList.remove("izq");
-//     item.classList.add("izqParar");
-//   });
-//   let stop = setTimeout(() => {
-//     const items = document.querySelectorAll("#itemRoulette");
-//     console.log("stop");
-//     items.forEach((item) => {
-//       item.classList.remove("izqParar");
-//       item.classList.add("pausa");
-//     });
-//   }, 2000);
-//   let timeOutBoton = setTimeout(() => {
-//     start.style.display = "block";
-//   }, 4000);
-// }
+function colision(item) {
+  const tolerancia = 5;
+  if (
+    item.x >= linea.x - tolerancia &&
+    item.x <= linea.x + linea.ancho + tolerancia
+  ) {
+    return true; // Hay colisión
+  } else {
+    return false; // No hay colisión
+  }
+}
