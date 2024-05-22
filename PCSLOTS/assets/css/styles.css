@@ -129,7 +129,7 @@ a {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 60rem;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
@@ -182,6 +182,20 @@ a {
   .header .menu-icon {
     float: right;
   }
+}
+
+.header .dropdown {
+  position: relative
+}
+
+.header .dropdown:hover .dropdown-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.header .dropdown-content {
+  position: fixed;
+  display: none
 }
 /* END HEADER */
 
