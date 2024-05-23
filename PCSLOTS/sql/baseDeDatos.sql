@@ -35,6 +35,17 @@ OR REPLACE TABLE `products` (
 );
 
 CREATE
+OR REPLACE TABLE `cart` (
+  `idProduct` int (11) NOT NULL,
+  `value` float NOT NULL,
+  `brand` varchar(20) NOT NULL,
+  `type` varchar(20) NOT NULL,
+  `description` text DEFAULT NULL,
+  `name` varchar(50) NOT NULL,
+  `caract` text DEFAULT NULL
+);
+
+CREATE
 OR REPLACE TABLE `sale` (
   `idSales` int (11) NOT NULL,
   `saleDate` date DEFAULT NULL,
@@ -59,7 +70,7 @@ VALUES
     1,
     1299,
     "Apple",
-    "Mobile",
+    "Mobile Phone",
     "iPhone 15 Pro Max. Forjado en titanio y con el revolucionario chip A17 Pro, un botón Acción personalizable y el sistema de cámaras más potente que haya tenido un iPhone.",
     "Apple iPhone 15 Pro Max 256GB Titanio Blanco Libre",
     "Pantalla: 6.7 pulgadas Super Retina XDR, tecnología ProMotion, resolución de 2796 x 1290 píxeles.;
@@ -78,7 +89,7 @@ VALUES
     2,
     739,
     "Apple",
-    "Mobile",
+    "Mobile Phone",
     "iPhone 13: Tu nuevo superpoder. Nuestro sistema de cámara dual más avanzado. El chip que hace morder el polvo a la competencia. Un subidón de autonomía que vaya si notarás.",
     "Apple iPhone 13 128GB Medianoche Libre",
     "Pantalla: 6.1 pulgadas Super Retina XDR, resolución de 2532 x 1170 píxeles.;
@@ -98,7 +109,7 @@ VALUES
     3,
     859,
     "Apple",
-    "Mobile",
+    "Mobile Phone",
     "Belleza duradera con aluminio de calidad aeroespacial. Espectacular pantalla Super Retina XDR. Ceramic Shield, más duro que cualquier vidrio de smartphone.",
     "Apple iPhone 14 128GB Medianoche Libre",
     "Pantalla: 6.1 pulgadas Super Retina XDR, resolución de 2532 x 1170 píxeles.;
@@ -119,7 +130,7 @@ VALUES
     4,
     299,
     "Samsung",
-    "Mobile",
+    "Mobile Phone",
     "Galaxy A15 no pierde su icónico diseño y podrás elegirlo en tres colores: negro, azul y amarillo.",
     "Samsung Galaxy A15 8/256GB Azul Libre",
     "Pantalla: Aproximadamente 6.5 pulgadas, resolución HD+.
@@ -140,7 +151,7 @@ VALUES
     5,
     329,
     "Samsung",
-    "Mobile",
+    "Mobile Phone",
     "Este teléfono inteligente está diseñado para hacer que tu día a día sea más impresionante.",
     "Samsung Galaxy A34 5G 8/256GB Negro Libre + Protector Pantalla",
     "Pantalla: 6.6 pulgadas Super AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
@@ -161,7 +172,7 @@ VALUES
     6,
     408,
     "Samsung",
-    "Mobile",
+    "Mobile Phone",
     "Este dispositivo es una verdadera maravilla que destaca en su categoría.",
     "Samsung Galaxy A54 5G 8/128GB Violeta Libre + Protector Pantalla",
     "Pantalla: 6.4 pulgadas Super AMOLED, resolución Full HD+ (1080 x 2340 píxeles), tasa de refresco de 120Hz.;
@@ -183,7 +194,7 @@ VALUES
     7,
     449,
     "Xiaomi",
-    "Mobile",
+    "Mobile Phone",
     "Redmi Note 13 Pro 5G no solo es un smartphone, es una auténtica revolución en diseño que no pasará desapercibida. Su acabado, que solo se encuentra en terminales premium, atraerá todas las miradas.",
     "Xiaomi Redmi Note 13 Pro 5G 12/512GB Negro Libre",
     "Pantalla: 6.67 pulgadas AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
@@ -205,7 +216,7 @@ VALUES
     8,
     229,
     "Xiaomi",
-    "Mobile",
+    "Mobile Phone",
     "Redmi Note 12 cuenta con una triple cámara con IA de 48MP y una pantalla AMOLED de 120 Hz y con protección Corning® Gorilla® Glass para capturar e inmortalizar cualquier imagen con la máxima resolución.",
     "Xiaomi Redmi Note 12 4/64GB Gris Libre",
     "Pantalla: 6.67 pulgadas AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
@@ -227,7 +238,7 @@ VALUES
     9,
     399,
     "Xiaomi",
-    "Mobile",
+    "Mobile Phone",
     "Redmi Note 13 Pro no solo es un smartphone, es una auténtica revolución en diseño que no pasará desapercibida.",
     "Xiaomi Redmi Note 13 Pro 12/512GB Negro Libre",
     "Pantalla: 6.67 pulgadas OLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
@@ -243,6 +254,61 @@ VALUES
     Seguridad: Sensor de huellas dactilares (lateral) y reconocimiento facial.;
     Otros: Conector USB-C, sin conector de auriculares de 3.5 mm, altavoces estéreo.;
     Resistencia: Resistencia al agua y polvo (IP53).;"
+  ),
+  (
+    10,
+    1239,
+    "Gigabyte",
+    "Laptops",
+    "La computadora portátil para juegos GIGABYTE ofrece elementos de juego completamente nuevos de las tendencias futuras, combinados con un potente rendimiento de próxima generación.",
+    "Gigabyte G5 KF5-53ES353SH Intel Core i5-13500H/16GB/512GB SSD/RTX 4060/15.6",
+    "Procesador: Intel Core i5-13500H;
+    Memoria RAM: 16 GB;
+    Almacenamiento: 512 GB SSD;
+    Tarjeta Gráfica: NVIDIA GeForce RTX 4060;
+    Pantalla: 15.6 pulgadas;
+    "
+  ),
+  (
+    11,
+    1549,
+    "Acer",
+    "Desktop",
+    "Una PC potente y compacta ansiosa por poner a prueba su procesador Intel® Core™ i7 de 12.ª generación.",
+    "Acer Predator Orion 3000 PO3-640 Intel Core i5-12400F/16 GB/1TB SSD/RTX 3070",
+    "Procesador: Intel Core i5-12400F;
+    Memoria RAM: 16 GB;
+    Almacenamiento: 1 TB SSD;
+    Tarjeta Gráfica: NVIDIA GeForce RTX 3070;
+    "
+  ),
+  (
+    12,
+    279,
+    "Lenovo",
+    "Tablet",
+    "No hay nada como la deslumbrante pantalla IPS 2K de 26,92 de la Tab M10 Plus de 3.ª generación de 2023.",
+    "Lenovo Tab M10 Plus Gen 3 2023 2K 4/128GB Gris + Funda + Pen",
+    "Pantalla: 10.61 pulgadas con resolución 2K;
+    Memoria RAM: 4 GB;
+    Almacenamiento: 128 GB;
+    Color: Gris;
+    Accesorios incluidos: Funda y Pen (lápiz);
+    "
+  ),
+  (
+    13,
+    224,
+    "Origial",
+    "Other",
+    "Con la lavadora ORIWM5DW de la marca Origial cuida tu ropa para que quede como nueva mucho más tiempo, seleccionando el programa adecuado entre las 15 opciones disponibles.",
+    "Origial ORIWM5DW Prowash Lavadora Carga Frontal 5Kg D Blanca",
+    "Tipo: Lavadora de carga frontal;
+    Capacidad de carga: 5 kg;
+    Color: Blanca;
+    Clasificación energética: D (según estándares de eficiencia energética);
+    Funciones adicionales: Diversos programas de lavado para diferentes tipos de ropa y niveles de suciedad;
+    "
   )
   -- ,(
   -- ,
@@ -259,8 +325,6 @@ VALUES
 -- ALTER TABLE `cases` ADD PRIMARY KEY (`idCase`);
 ALTER TABLE `client` ADD PRIMARY KEY (`idClient`);
 
-ALTER TABLE `products` ADD PRIMARY KEY (`idProduct`);
-
 ALTER TABLE `sale` ADD PRIMARY KEY (`idSales`);
 
 ALTER TABLE `sales_line` ADD PRIMARY KEY (`idLines`);
@@ -270,9 +334,8 @@ ALTER TABLE `sales_line` ADD PRIMARY KEY (`idLines`);
 --   MODIFY `idCase` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 ALTER TABLE `client` MODIFY `idClient` int (11) NOT NULL AUTO_INCREMENT;
 
-ALTER TABLE `products` MODIFY `idProduct` int (11) NOT NULL AUTO_INCREMENT,
-AUTO_INCREMENT = 10;
-
 ALTER TABLE `sale` MODIFY `idSales` int (11) NOT NULL AUTO_INCREMENT;
 
 ALTER TABLE `sales_line` MODIFY `idLines` int (11) NOT NULL AUTO_INCREMENT;
+
+-- INSERT INTO products (value, brand, type, description, name, caract) VALUES (100, "Algo", "movil", "dadad", "pito", "algomuchomas");

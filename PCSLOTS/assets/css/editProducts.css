@@ -21,11 +21,17 @@ main{
     margin: 1rem;
     padding: 1rem;
 }
+.formContainer .form #productID{
+    flex-basis: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
 .formContainer .form #price{
     flex: 1;
     margin: 1rem;
     padding: 1rem;
 }
+
 .formContainer .form #brand{
     flex: 1;
     margin: 1rem;
