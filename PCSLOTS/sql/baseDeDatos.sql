@@ -309,7 +309,52 @@ VALUES
     Clasificación energética: D (según estándares de eficiencia energética);
     Funciones adicionales: Diversos programas de lavado para diferentes tipos de ropa y niveles de suciedad;
     "
-  );
+  ),
+  (
+    14,
+    363,
+    "Realme",
+    "Mobile",
+    "El Realme 12 Pro 5G es un teléfono inteligente que combina un diseño elegante con un rendimiento excepcional.",
+    "Realme 12 Pro 5G 12/256GB Azul Libre",
+    "Pantalla: 6.7 pulgadas AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
+    Procesador: MediaTek Dimensity 1200.;
+    Capacidad: 256GB de almacenamiento interno, no expandible mediante tarjeta microSD.;
+    Memoria RAM: 8GB.;
+    Cámara Trasera: Triple cámara con sensor principal de 108 MP, ultra gran angular de 12 MP y telefoto de 8 MP.;
+    Cámara Frontal: 32 MP.;
+    Materiales: Parte delantera de vidrio y trasera de vidrio con acabado en color Azul.;
+    Sistema Operativo: realme UI 4.0 basado en Android 13.;
+    Conectividad: 5G, Wi-Fi 6, Bluetooth 5.3, GPS, NFC.;
+    Batería: 5000 mAh, con soporte para carga rápida de 65W.;
+    Seguridad: Sensor de huellas dactilares (integrado en pantalla) y reconocimiento facial.;
+    Otros: Conector USB-C, sin conector de auriculares de 3.5 mm, altavoces estéreo.;
+    Resistencia: Resistencia al agua y polvo (IP54).;"
+  ),
+  (
+    15,
+    899,
+    "Gigabyte",
+    "Laptop",
+    "La computadora portátil para juegos GIGABYTE ofrece elementos de juego completamente nuevos de las tendencias futuras, combinados con un potente rendimiento de próxima generación. ",
+    "Gigabyte G5 KF5-53ES353SH",
+    "Pantalla: 15.6 pulgadas IPS, resolución Full HD (1920 x 1080 píxeles), tasa de refresco de 144Hz.;
+    Procesador: Intel Core i5-12500H.;
+    Capacidad: 512GB SSD de almacenamiento interno.;
+    Memoria RAM: 16GB DDR4.;
+    Tarjeta Gráfica: NVIDIA GeForce RTX 4060 con 8GB de VRAM.;
+    Cámara Frontal: HD (720p).;
+    Materiales: Chasis de plástico con acabado en color negro.;
+    Sistema Operativo: Windows 11 Home.;
+    Conectividad: Wi-Fi 6, Bluetooth 5.2, Ethernet.;
+    Puertos: 1x USB-C, 3x USB-A 3.2, 1x HDMI 2.0, 1x Mini DisplayPort, 1x RJ45, 1x lector de tarjetas SD, 1x conector de auriculares/micrófono (3.5 mm).;
+    Batería: 48.96 Wh, con adaptador de corriente de 150W.;
+    Teclado: Teclado retroiluminado RGB.;
+    Audio: Altavoces estéreo con tecnología DTS:X Ultra.;
+    Seguridad: Lector de huellas dactilares.;
+    Peso: 2.2 kg.;
+    Dimensiones: 361 x 258 x 27.9 mm.;"
+  ),;
 
 -- CLIENTES
 INSERT INTO `client` (`idClient`, `dni`, `username`, `name`, `lastname`, `province`, `cp`, `address`) VALUES
