@@ -1,3 +1,5 @@
+<%@ page import="java.util.*" %>
+<%@ page import="pcSlots.*" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,24 +14,32 @@
     <title>Delete product</title>
 </head>
 <body>
+  <%BDController bd = new BDController();
+	ArrayList<Product> cart = bd.allCart();
+	String mensaje = "";
+	if (request.getParameter("mensaje") != null) {
+		mensaje = request.getParameter("mensaje");
+	}
+
+	%>
   <header class="header">
-    <a href="./index.html" class="logo"><img src="./assets/img/pcSlotsLogo.png" alt=""></a>
+    <a href="./index.jsp" class="logo"><img src="./assets/img/pcSlotsLogo.png" alt=""></a>
     <div class="userThings">
-      <a href="./registerUser.html" class="userInfo"><img src="./assets/img/usuario.png" alt=""></a>
-      <a href="./cart.html" class="shopCart"><img src="./assets/img/carrito-de-compras.png" alt=""><span class="cartObjects">0</span></a>
+      <a href="./registerUser.jsp" class="userInfo"><img src="./assets/img/usuario.png" alt=""></a>
+      <a href="./cart.jsp" class="shopCart"><img src="./assets/img/carrito-de-compras.png" alt=""><span class="cartObjects"><%=Util.carritoNum(cart) %></span></a>
 
     </div>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a href="./shop.html">Products</a></li>
-      <li><a href="./clients.html">Clients</a></li>
-      <li><a href="./sell-line.html">Sales line</a></li>
+      <li><a href="./shop.jsp">Products</a></li>
+      <li><a href="./clients.jsp">Clients</a></li>
+      <li><a href="./sell-line.jsp">Sales line</a></li>
       <li class="dropdown">
         <a href="#more">More</a>
         <ul class="dropdown-content">
-          <li><a href="./registerProduct.html">Register product</a></li>
-          <li><a href="./deleteProduct.html">Delete product</a></li>
+          <li><a href="./registerProduct.jsp">Register product</a></li>
+          <li><a href="./deleteProduct.jsp">Delete product</a></li>
         </ul>
       </li>
     </ul>
@@ -38,7 +48,7 @@
     <div class="formContainer">
       <h2>Delete product</h2>
         <form class="form" action="#">
-            <input type="number" id="productID" name="productID" placeholder="Product id" min="1">
+            <input type="number" id="productID" name="productID" placeholder="Product id" min="1" style="flex-basis: 100%;margin: 1rem;padding: 1rem;">
             <h3>OR</h3>
             <input type="text" id="name" name="name" placeholder="Product name">
             <button type="submit" class="submitButton">Delete Product</button>
@@ -74,10 +84,10 @@
               <h5>Other things</h5>
               <ul class="list-unstyled quick-links">
                 <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Clients</a></li>
-                <li><a href="./sell-line.html"><i class="fa fa-angle-double-right"></i>Sells line</a></li>
-                <li><a href="./register.html"><i class="fa fa-angle-double-right"></i>Register product</a></li>
+                <li><a href="./sell-line.jsp"><i class="fa fa-angle-double-right"></i>Sells line</a></li>
+                <li><a href="./register.jsp"><i class="fa fa-angle-double-right"></i>Register product</a></li>
                 <li><a href="./deregister"><i class="fa fa-angle-double-right"></i>Deregister product</a></li>
-                <li><a href="./shop.html" title="Our products"><i class="fa fa-angle-double-right"></i>Products</a></li>
+                <li><a href="./shop.jsp" title="Our products"><i class="fa fa-angle-double-right"></i>Products</a></li>
               </ul>
             </div>
           </div> 
