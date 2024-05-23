@@ -70,7 +70,7 @@ VALUES
     1,
     1299,
     "Apple",
-    "Mobile Phone",
+    "Mobile",
     "iPhone 15 Pro Max. Forjado en titanio y con el revolucionario chip A17 Pro, un botón Acción personalizable y el sistema de cámaras más potente que haya tenido un iPhone.",
     "Apple iPhone 15 Pro Max 256GB Titanio Blanco Libre",
     "Pantalla: 6.7 pulgadas Super Retina XDR, tecnología ProMotion, resolución de 2796 x 1290 píxeles.;
@@ -89,7 +89,7 @@ VALUES
     2,
     739,
     "Apple",
-    "Mobile Phone",
+    "Mobile",
     "iPhone 13: Tu nuevo superpoder. Nuestro sistema de cámara dual más avanzado. El chip que hace morder el polvo a la competencia. Un subidón de autonomía que vaya si notarás.",
     "Apple iPhone 13 128GB Medianoche Libre",
     "Pantalla: 6.1 pulgadas Super Retina XDR, resolución de 2532 x 1170 píxeles.;
@@ -109,7 +109,7 @@ VALUES
     3,
     859,
     "Apple",
-    "Mobile Phone",
+    "Mobile",
     "Belleza duradera con aluminio de calidad aeroespacial. Espectacular pantalla Super Retina XDR. Ceramic Shield, más duro que cualquier vidrio de smartphone.",
     "Apple iPhone 14 128GB Medianoche Libre",
     "Pantalla: 6.1 pulgadas Super Retina XDR, resolución de 2532 x 1170 píxeles.;
@@ -130,7 +130,7 @@ VALUES
     4,
     299,
     "Samsung",
-    "Mobile Phone",
+    "Mobile",
     "Galaxy A15 no pierde su icónico diseño y podrás elegirlo en tres colores: negro, azul y amarillo.",
     "Samsung Galaxy A15 8/256GB Azul Libre",
     "Pantalla: Aproximadamente 6.5 pulgadas, resolución HD+.
@@ -151,7 +151,7 @@ VALUES
     5,
     329,
     "Samsung",
-    "Mobile Phone",
+    "Mobile",
     "Este teléfono inteligente está diseñado para hacer que tu día a día sea más impresionante.",
     "Samsung Galaxy A34 5G 8/256GB Negro Libre + Protector Pantalla",
     "Pantalla: 6.6 pulgadas Super AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
@@ -172,7 +172,7 @@ VALUES
     6,
     408,
     "Samsung",
-    "Mobile Phone",
+    "Mobile",
     "Este dispositivo es una verdadera maravilla que destaca en su categoría.",
     "Samsung Galaxy A54 5G 8/128GB Violeta Libre + Protector Pantalla",
     "Pantalla: 6.4 pulgadas Super AMOLED, resolución Full HD+ (1080 x 2340 píxeles), tasa de refresco de 120Hz.;
@@ -194,7 +194,7 @@ VALUES
     7,
     449,
     "Xiaomi",
-    "Mobile Phone",
+    "Mobile",
     "Redmi Note 13 Pro 5G no solo es un smartphone, es una auténtica revolución en diseño que no pasará desapercibida. Su acabado, que solo se encuentra en terminales premium, atraerá todas las miradas.",
     "Xiaomi Redmi Note 13 Pro 5G 12/512GB Negro Libre",
     "Pantalla: 6.67 pulgadas AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
@@ -216,7 +216,7 @@ VALUES
     8,
     229,
     "Xiaomi",
-    "Mobile Phone",
+    "Mobile",
     "Redmi Note 12 cuenta con una triple cámara con IA de 48MP y una pantalla AMOLED de 120 Hz y con protección Corning® Gorilla® Glass para capturar e inmortalizar cualquier imagen con la máxima resolución.",
     "Xiaomi Redmi Note 12 4/64GB Gris Libre",
     "Pantalla: 6.67 pulgadas AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
@@ -238,7 +238,7 @@ VALUES
     9,
     399,
     "Xiaomi",
-    "Mobile Phone",
+    "Mobile",
     "Redmi Note 13 Pro no solo es un smartphone, es una auténtica revolución en diseño que no pasará desapercibida.",
     "Xiaomi Redmi Note 13 Pro 12/512GB Negro Libre",
     "Pantalla: 6.67 pulgadas OLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
@@ -309,33 +309,100 @@ VALUES
     Clasificación energética: D (según estándares de eficiencia energética);
     Funciones adicionales: Diversos programas de lavado para diferentes tipos de ropa y niveles de suciedad;
     "
-  )
-  -- ,(
-  -- ,
-  -- ,
-  -- "",
-  -- "",
-  -- "",
-  -- "",
-  -- ""
-  -- )
-;
+  );
+
+-- CLIENTES
+INSERT INTO `client` (`idClient`, `dni`, `username`, `name`, `lastname`, `province`, `cp`, `address`) VALUES
+(1, '12345678A', 'jdoe', 'John', 'Doe', 'Madrid', 28001, 'Calle Falsa 123'),
+(2, '23456789B', 'asmith', 'Alice', 'Smith', 'Barcelona', 08001, 'Avenida Siempre Viva 742'),
+(3, '34567890C', 'bwhite', 'Bob', 'White', 'Valencia', 46001, 'Calle Luna 456'),
+(4, '45678901D', 'cjohnson', 'Charlie', 'Johnson', 'Sevilla', 41001, 'Calle Sol 789'),
+(5, '56789012E', 'ddavis', 'David', 'Davis', 'Bilbao', 48001, 'Calle Mar 123'),
+(6, '67890123F', 'eclark', 'Eva', 'Clark', 'Zaragoza', 50001, 'Calle Tierra 456'),
+(7, '78901234G', 'fmartin', 'Frank', 'Martin', 'Málaga', 29001, 'Calle Viento 789'),
+(8, '89012345H', 'glopez', 'Grace', 'Lopez', 'Murcia', 30001, 'Calle Fuego 123'),
+(9, '90123456I', 'hharris', 'Henry', 'Harris', 'Granada', 18001, 'Calle Agua 456'),
+(10, '01234567J', 'ikim', 'Irene', 'Kim', 'Alicante', 03001, 'Calle Madera 789');
+
+-- Insert 30 records into the sale table
+INSERT INTO `sale` (`idSales`, `saleDate`, `total`, `idClient`) VALUES
+(1, '2023-01-15', 1299.00, 1),
+(2, '2023-01-16', 739.00, 2),
+(3, '2023-01-17', 859.00, 3),
+(4, '2023-01-18', 299.00, 4),
+(5, '2023-01-19', 329.00, 5),
+(6, '2023-01-20', 408.00, 6),
+(7, '2023-01-21', 449.00, 7),
+(8, '2023-01-22', 229.00, 8),
+(9, '2023-01-23', 399.00, 9),
+(10, '2023-01-24', 1239.00, 10),
+(11, '2023-01-25', 1549.00, 1),
+(12, '2023-01-26', 279.00, 2),
+(13, '2023-01-27', 224.00, 3),
+(14, '2023-01-28', 699.00, 4),
+(15, '2023-01-29', 329.00, 5),
+(16, '2023-01-30', 859.00, 6),
+(17, '2023-02-01', 739.00, 7),
+(18, '2023-02-02', 449.00, 8),
+(19, '2023-02-03', 229.00, 9),
+(20, '2023-02-04', 408.00, 10),
+(21, '2023-02-05', 1299.00, 1),
+(22, '2023-02-06', 1239.00, 2),
+(23, '2023-02-07', 1549.00, 3),
+(24, '2023-02-08', 299.00, 4),
+(25, '2023-02-09', 329.00, 5),
+(26, '2023-02-10', 739.00, 6),
+(27, '2023-02-11', 859.00, 7),
+(28, '2023-02-12', 399.00, 8),
+(29, '2023-02-13', 449.00, 9),
+(30, '2023-02-14', 229.00, 10);
+
+-- Insert 30 records into the sales_line table
+INSERT INTO `sales_line` (`idLines`, `idSales`, `product`, `units`, `unit_price`) VALUES
+(1, 1, 1, 1, 1299.00),
+(2, 2, 2, 1, 739.00),
+(3, 3, 3, 1, 859.00),
+(4, 4, 4, 1, 299.00),
+(5, 5, 5, 1, 329.00),
+(6, 6, 6, 1, 408.00),
+(7, 7, 7, 1, 449.00),
+(8, 8, 8, 1, 229.00),
+(9, 9, 9, 1, 399.00),
+(10, 10, 10, 1, 1239.00),
+(11, 11, 11, 1, 1549.00),
+(12, 12, 12, 1, 279.00),
+(13, 13, 13, 1, 224.00),
+(14, 14, 1, 1, 699.00),
+(15, 15, 2, 1, 329.00),
+(16, 16, 3, 1, 859.00),
+(17, 17, 4, 1, 739.00),
+(18, 18, 5, 1, 449.00),
+(19, 19, 6, 1, 229.00),
+(20, 20, 7, 1, 408.00),
+(21, 21, 8, 1, 1299.00),
+(22, 22, 9, 1, 1239.00),
+(23, 23, 10, 1, 1549.00),
+(24, 24, 11, 1, 299.00),
+(25, 25, 12, 1, 329.00),
+(26, 26, 13, 1, 739.00),
+(27, 27, 1, 1, 859.00),
+(28, 28, 2, 1, 399.00),
+(29, 29, 3, 1, 449.00),
+(30, 30, 4, 1, 229.00);
 
 -- HACER CLAVES PRIMARIAS
 -- ALTER TABLE `cases` ADD PRIMARY KEY (`idCase`);
 ALTER TABLE `client` ADD PRIMARY KEY (`idClient`);
 
-ALTER TABLE `sale` ADD PRIMARY KEY (`idSales`);
+
 
 ALTER TABLE `sales_line` ADD PRIMARY KEY (`idLines`);
 
 -- HACER QUE SEAN INCREMENTABLES
 -- ALTER TABLE `cases`
 --   MODIFY `idCase` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-ALTER TABLE `client` MODIFY `idClient` int (11) NOT NULL AUTO_INCREMENT;
 
-ALTER TABLE `sale` MODIFY `idSales` int (11) NOT NULL AUTO_INCREMENT;
+
 
 ALTER TABLE `sales_line` MODIFY `idLines` int (11) NOT NULL AUTO_INCREMENT;
 
--- INSERT INTO products (value, brand, type, description, name, caract) VALUES (100, "Algo", "movil", "dadad", "pito", "algomuchomas");
