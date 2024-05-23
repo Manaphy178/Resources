@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/css/editProducts.css">
     <link rel="shortcut icon" href="./assets/img/pcSlotsLogo.ico" type="image/x-icon">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script defer src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <title>Edit product</title>
+    <link rel="stylesheet" href="./assets/css/sells.css">
+    <title>Clients</title>
 </head>
 <body>
   <header class="header">
     <a href="./index.html" class="logo"><img src="./assets/img/pcSlotsLogo.png" alt=""></a>
     <div class="userThings">
-
       <a href="./registerUser.html" class="userInfo"><img src="./assets/img/usuario.png" alt=""></a>
-      <a href="" class="shopCart"><img src="./assets/img/carrito-de-compras.png" alt=""><span class="cartObjects">0</span></a>
-
+      <a href="" class="shopCart"><img src="./assets/img/carrito-de-compras.png" alt=""></a>
     </div>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -36,25 +34,28 @@
     </ul>
   </header>
   <main>
-    <div class="formContainer">
-        <form class="form" action="#">
-            <input type="text" id="name" name="name" placeholder="Product name" required>
-            <input type="number" id="price" name="price" placeholder="Price" required>
-            <input type="text" id="brand" name="brand" placeholder="Brand" required>
-            <select id="productType" name="productType">
-                <option value="option1">Mobile Phone</option>
-                <option value="opcion2">Tablet</option>
-                <option value="opcion3">Laptops</option>
-                <option value="opcion4">Desktops</option>
-                <option value="opcion5">Other</option>
-              </select>
-            <div class="textareas">
-                <textarea id="description" name="description" placeholder="Description"></textarea>
-                <textarea id="characteristics" name="characteristics" placeholder="Characteristics"></textarea>
-            </div>
-            <button type="submit" class="submitButton">Register Product</button>
-          </form>
-    </div>
+    <table border="1">
+        <tr>
+            <th>ID Client</th>
+            <th>Username</th>
+            <th>Name</th>
+            <th>Last name</th>
+            <th>DNI</th>
+            <th>Province</th>
+            <th>CP</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>campo</td>
+            <td>campo</td>
+            <td>campo</td>
+            <td>campo</td>
+            <td>campo</td>
+            <td>campo</td>
+            <td>campo</td>
+            <td>campo</td>
+        </tr>
+    </table>
   </main>
   <footer>
     <!-- Footer -->
