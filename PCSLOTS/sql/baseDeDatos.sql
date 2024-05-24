@@ -355,7 +355,119 @@ VALUES
     Security: Fingerprint reader.;
     Weight: 2.2 kg.;
     Dimensions: 361 x 258 x 27.9 mm.;"
-  );
+  )
+  ,(
+    16,
+    929,
+    "HP", 
+    "Laptop",
+    "La potencia de un ordenador de sobremesa en un equipo portátil. El portátil HP Victus se ha diseñado para jugar en máxima calidad. Este elegante portátil cuenta con un potente procesador AMD y gráficos NVIDIA.",
+    "HP Victus 15-fb1002ns AMD Ryzen 5 7535HS/16GB/512GB SSD/RTX 2050/15.6",
+    "Procesador: AMD Ryzen 5 7535HS;
+    Memoria RAM: 16 GB;
+    Almacenamiento: 512 GB SSD;
+    Tarjeta gráfica: NVIDIA GeForce RTX 2050;
+    Tamaño de pantalla: 15.6 pulgadas."
+  )
+  ,(
+    17,
+    1349,
+    "Lenovo",
+    "Laptop",
+    "Reúne a tu escuadrón y zambúllete en los juegos para PC con estos dispositivos diseñados para sobrepasar los límites. Las plataformas de gaming Lenovo LOQ proporcionan toda la potencia que necesitas gracias a su procesadores de alta gama y sus GPU NVIDIA® GeForce RTX™. ",
+    "Lenovo LOQ 15IRH8 Intel Core i7-13620H/16GB/512GB SSD/RTX 4060/15.6",
+    "Procesador: Intel Core i7-13620H;
+    Memoria RAM: 16GB;
+    Almacenamiento: 512GB SSD;
+    Tarjeta gráfica: NVIDIA GeForce RTX 4060;
+    Pantalla: 15.6 pulgadas."
+  )
+  ,(
+    18,
+    1099,
+    "Acer",
+    "Laptop",
+    "Lleva tus aventuras gaming a otro nivel con el Acer Nitro V 15, tu pasaporte a un viaje cargado de adrenalina. Este portátil es la combinación perfecta de potencia y estilo, ya que supera los límites de lo que es posible en un portátil.",
+    "Acer Nitro V 15 ANV15-51-579P Intel Core i5-13420H/16GB/512GB SSD/RTX 4050/15.6",
+    "Procesador: Intel Core i5-13420H;
+Memoria RAM: 16 GB;
+Almacenamiento: 512 GB SSD;
+Tarjeta gráfica: NVIDIA GeForce RTX 4050;
+Pantalla: 15.6 pulgadas"
+  )
+  ,(
+    19,
+    1598,
+    "MSI",
+    "Laptop",
+    "La serie Sword recibió un rediseño legendario con un nuevo cuerpo gris cosmos, manteniendo el mismo perfil elegante y una potente refrigeración.",
+    "MSI Sword 16 HX B14VFKG-054XES Intel Core i9-14900HX/32GB/1TB SSD/RTX 4060/16",
+    "Procesador: Intel Core i9-14900HX;
+Memoria RAM: 32GB;
+Almacenamiento: 1TB SSD;
+Tarjeta gráfica: NVIDIA GeForce RTX 4060;
+Tamaño de pantalla: 16 pulgadas;
+Sistema operativo: No especificado (probablemente Windows 11 o sin sistema operativo, dependiendo del distribuidor);
+Resolución de pantalla: No especificado (comúnmente Full HD o superior);
+Conectividad: Varias opciones, incluyendo puertos USB, HDMI, y posiblemente Thunderbolt;
+Teclado: Retroiluminado;
+Peso: No especificado (generalmente alrededor de 2-3 kg para portátiles de este tipo);
+Batería: No especificado (probablemente de 3 o 4 celdas);
+Audio: Altavoces estéreo y micrófono integrado;
+Cámara web: Integrada;
+Conectividad inalámbrica: WiFi 6 y Bluetooth 5.2 o superior."
+  )
+  ,(
+    20,
+    669,
+    "HP",
+    "Laptop",
+    "El portátil HP de 15,6 pulgadas te da el poder para hacer más gracias a la potencia fiable del procesador Intel®, además de un amplio almacenamiento y unos gráficos potentes en un dispositivo elegante y cuidadosamente diseñado.",
+    "HP 15-FD0079NS Intel Core i5-1334U/16GB/1TB SSD/15.6",
+    "Procesador: Intel Core i5-1334U;
+Memoria RAM: 16GB;
+Almacenamiento: 1TB SSD;
+Pantalla: 15.6 pulgadas;
+Modelo: HP 15-FD0079NS."
+  )
+  ,(
+    21,
+    1299,
+    "MSI",
+    "Laptop",
+    "Protege tu honor y derrota a los enemigos. Despierta tu poder interior y hereda la voluntad del Dragón. En tus manos está la Espada del Dragón, que fluye con un poder antiguo y está grabada con runas de viento. Derrota a cualquier enemigo que se interponga en tu camino con la espada legendaria Katana 15 B13V.",
+    "MSI Katana 15 B13VFK-1854XES Intel Core i7-13700H/16GB/1TB SSD/RTX 4060/15.6",
+    "Procesador: Intel Core i7-13700H;
+Memoria RAM: 16 GB;
+Almacenamiento: 1 TB SSD;
+Tarjeta gráfica: NVIDIA GeForce RTX 4060;
+Tamaño de pantalla: 15.6 pulgadas."
+  ),(
+    22,
+    799,
+    "MSI",
+    "Laptop",
+    "A la llamada del Thunderbird, la aventurera despierta de su profundo sueño. El continente de fantasía ahora es diferente del pasado, con templos antiguos, bosques mágicos e islas flotantes situadas bajo el vasto cielo azul, cada una llena de numerosos secretos que esperan ser descubiertos.",
+    "MSI Bravo 15 C7UDX-288XES AMD Ryzen 5 7535HS/16GB/512GB SSD/RTX 3050/15.6",
+    "Procesador: AMD Ryzen 5 7535HS;
+Memoria RAM: 16GB;
+Almacenamiento: 512GB SSD;
+Tarjeta gráfica: NVIDIA GeForce RTX 3050;
+Tamaño de pantalla: 15.6 pulgadas."
+  ),(
+    23,
+    2199,
+    "MSI",
+    "Laptop",
+    "El nuevo Pulse 16 AI es más potente e inteligente que nunca. Después de años de dominio, Los Guerreros Dragón enfrentan nuevas amenazas.",
+    "MSI Pulse 16 AI C1VGKG-024XES Intel Core Ultra 9 185H/32GB/1TB SSD/RTX 4070/16",
+    "Procesador: Intel Core Ultra 9 185H;
+Memoria RAM: 32GB;
+Almacenamiento: 1TB SSD;
+Tarjeta Gráfica: NVIDIA GeForce RTX 4070;
+Tamaño de Pantalla: 16 pulgadas."
+  )
+  ;
 
 -- CLIENTES
 INSERT INTO `client` (`idClient`, `dni`, `username`, `name`, `lastname`, `province`, `cp`, `address`) VALUES
@@ -451,4 +563,5 @@ ALTER TABLE `sales_line` ADD PRIMARY KEY (`idLines`);
 
 
 ALTER TABLE `sales_line` MODIFY `idLines` int (11) NOT NULL AUTO_INCREMENT;
+
 
