@@ -471,9 +471,8 @@ VALUES
     848,
     "MSI",
     "Laptop",
-    "El Thin GF63 impulsa las demandas multitarea diarias con hasta el último procesador Intel® Core™ de 12.ª generación y los nuevos gráficos Intel® Arc™ A370M. Disfruta de cautivadores juegos, diseño y experiencia de transmisión.",
+    "The MSI Thin GF63 powers daily multitasking demands with the latest 12th generation Intel® Core™ processor and the new Intel® Arc™ A370M graphics. Enjoy captivating gaming, design, and streaming experience.",
     "MSI Thin GF63 12UC-688XES Intel Core i7-12650H/16GB/1TB SSD/RTX 3050/15.6",
-    "Model: MSI Thin GF63 12UC-688XES"; 
     "Processor: Intel Core i7-12650H (10 cores, 16 threads, 2.3GHz base frequency, up to 4.7GHz with Intel Turbo Boost); 
     RAM Memory: 16GB DDR4 3200MHz; 
     Storage: 1TB NVMe SSD; 
@@ -486,12 +485,13 @@ VALUES
     Battery: 3-cell, 52Wh; 
     Weight: 1.86 kg (4.1 lbs); 
     Dimensions: 359 x 254 x 21.7 mm"
-  ),(
+  ),
+  (
     25,
     628,
     "Lenovo",
     "Laptop",
-    "Destaque en cualquier lugar con la computadora portátil Lenovo IdeaPad Slim 3, diseñada para ser liviana y delgada, de construcción robusta con resistencia y durabilidad de grado militar para soportar caídas y condiciones de viaje extremas.",
+    "Stand out anywhere with the Lenovo IdeaPad Slim 3 laptop, designed to be lightweight and slim, with rugged construction for resistance and durability of military grade to withstand drops and extreme travel conditions.",
     "Lenovo IdeaPad Slim 3 15IAH8 Intel Core i5-12450H/16GB/1TB SSD/15.6",
     "Processor: Intel Core i5-12450H (8 cores, 12 threads, 2.0GHz base frequency, up to 4.4GHz with Intel Turbo Boost); 
     RAM Memory: 16GB DDR4; 
@@ -504,12 +504,13 @@ VALUES
     Battery: 3-cell, 45Wh; 
     Weight: 1.7 kg (3.75 lbs); 
     Dimensions: 359.2 x 236.5 x 19.9 mm"
-  ),(
+  ),
+  (
     26,
     400,
     "OnePlus",
     "Mobile",
-    "OnePlus Nord 3 5G presenta un diseño sencillo y discreto que tiene aspecto de algo mucho más caro. El color Tempest Gray incorpora una tempestuosa cubierta de cristal de seda 2.8D con una textura esmerilada antirreflejos y antihuellas",
+    "The OnePlus Nord 3 5G features a simple and discreet design that looks much more expensive. Tempest Gray color incorporates a tempestuous 2.8D silk glass cover with an anti-reflective, anti-fingerprint frosted texture.",
     "OnePlus Nord 3 5G 16/256GB Tempest Gray Libre",
     "RAM Memory: 16GB; 
     Storage: 256GB; 
@@ -524,12 +525,13 @@ VALUES
     Ports: USB Type-C; 
     Dimensions: 163.2 x 75.9 x 8.3 mm; 
     Weight: 189 grams"
-  ),(
+  ),
+  (
     27,
     1459,
     "Samsung",
     "Mobile",
-    "La nueva era de la telefonía ha llegado. Con el modelo superior de la nueva gama S, Galaxy S24 Ultra, experimentarás tu smartphone como nunca antes.",
+    "The new era of telephony has arrived. With the top model of the new S series, Galaxy S24 Ultra, you will experience your smartphone like never before.",
     "Samsung Galaxy S24 Ultra 12/256GB Gris Titanium Libre + Cargador",
     "RAM Memory: 12GB; 
     Storage: 256GB; 
@@ -542,10 +544,10 @@ VALUES
     Dimensions: 164.9 x 75.5 x 8.9 mm"
   ),(
     28,
-    400,
+    889,
     "PCcom Ready",
     "Desktop",
-    "Pc Gaming pensado para un uso general en el hogar o en la oficina, el PcCom Ready se presenta como un potente equipo en el que su procesador AMD Ryzen 5, sus 16GB de RAM DDR4, el rápido disco SSD de 1TB M.2 NVMe y la potente gráfica Nvidia RTX 3060 permiten trabajar de forma holgada en muy diferentes tareas, lo que lo hace ideal para entornos domésticos o de oficina.",
+    "Gaming PC designed for general use at home or in the office, the PcCom Ready presents itself as a powerful system where its AMD Ryzen 5 processor, 16GB of DDR4 RAM, fast 1TB M.2 NVMe SSD, and powerful Nvidia RTX 3060 graphics card allow for comfortable work in various tasks, making it ideal for home or office environments.",
     "PcCom Ready AMD Ryzen 5 5600X / 16GB / 1TB SSD / RTX 3060",
     "Processor: AMD Ryzen 5 5600X; 
     RAM Memory: 16GB DDR4; 
@@ -555,6 +557,95 @@ VALUES
     Connectivity: Wi-Fi, Bluetooth; 
     Ports: USB, HDMI, DisplayPort, Ethernet; 
     Operating System: Windows 10 Home"
+  ),
+  (
+    29,
+    749,
+    "HP",
+    "Desktop",
+    "Work hard. Play easy. An all-in-one system: the Victus by HP 15L gaming desktop. Play at the highest level with a powerful AMD processor and stunning graphics. Switch seamlessly between work and streaming, with Bluetooth® connectivity, 9 USB ports, and plenty of storage.",
+    "HP Victus 15L TG02-0177ns AMD Ryzen 5 5600G/16GB/512GB SSD/RTX 3050",
+    "Processor: AMD Ryzen 5 5600G; 
+    RAM Memory: 16GB; 
+    Storage: 512GB SSD; 
+    Graphics Card: NVIDIA GeForce RTX 3050; 
+    Screen: 15.6-inch Full HD display; 
+    Operating System: Windows 10 Home; 
+    Connectivity: Wi-Fi, Bluetooth; 
+    Ports: USB, HDMI, Ethernet; 
+    Battery: 3-cell; 
+    Weight: Approximately 2.1 kg"
+  ),
+  (
+    30,
+    829,
+    "Lenovo",
+    "Desktop",
+    "Dominate your competition with the wild power and blistering speeds of your essential battle station: the Lenovo Legion Tower 5i. Up to 12th Gen Intel® Core™ i9 processors and the latest NVIDIA® GeForce® graphics cards deliver an amazing show of force.",
+    "Lenovo Legion T5 26IAB7 Intel Core i5-12400F/16GB/2TB + 1TB SSD/RTX 3060",
+    "Processor: Intel Core i5-12400F; 
+    RAM Memory: 16GB DDR4; 
+    Storage: 2TB HDD + 1TB SSD; 
+    Graphics Card: NVIDIA GeForce RTX 3060; 
+    Cooling: Liquid cooling system; 
+    Connectivity: Wi-Fi 6, Bluetooth 5.2; 
+    Ports: USB 3.2, HDMI, DisplayPort; 
+    Operating System: Windows 10 Home."
+  ),
+  (
+    31,
+    1349,
+    "MSI",
+    "Desktop",
+    "Born from a sketch to provide the best gaming experience, the MAG Infinite S3 combines performance with innovation. In addition to a stylish power button, it features brilliant sharp lines on its front panel.",
+    "Desktop Computer MSI MAG Infinite S3 13NUB7-1820ES ",
+    "Processor: Intel Core i7-13700F; 
+    RAM Memory: 32GB; 
+    Storage: 1TB SSD; 
+    Graphics Card: NVIDIA GeForce RTX 4060 Ti."
+  ),
+  (
+    32,
+    579,
+    "Acer",
+    "Desktop",
+    "Everyday computing doesn't have to be boring. The compact 8-liter Aspire XC offers efficient hardware for multitasking, work, and daily leisure. Effortlessly navigate through tasks as they arise with Intel® processors.",
+    "Acer Aspire XC-1760 Intel Core i5-12400/16GB/512 GB SSD",
+    "Processor: Intel Core i5-12400; 
+    RAM Memory: 16GB DDR4; 
+    Storage: 512GB SSD; 
+    Graphics: Intel UHD Graphics 770; 
+    Connectivity: Wi-Fi 6, Bluetooth 5.2; 
+    Ports: USB 3.2, HDMI, VGA; 
+    Operating System: Windows 10 Home."
+  ),
+  (
+    33,
+    2699,
+    "ASUS",
+    "Desktop",
+    "The ROG Strix G16CH is designed for high-performance gaming and looks good doing it. With a mesh front panel, dual D-ring handle, headphone support, and subtle RGB lighting accents, the G16CH is a perfect blend of form and function.",
+    "ASUS ROG G16CH-1370KF0080 Intel Core i7-13700KF/32GB/1TB SSD/RTX 4080",
+    "Processor: Intel Core i7-13700KF; 
+    RAM Memory: 32GB; 
+    Storage: 1TB SSD; 
+    Graphics Card: NVIDIA GeForce RTX 4080."
+  ),
+  (
+    34,
+    2549,
+    "HP",
+    "Desktop",
+    "Take your gaming to a new level. The OMEN by HP 40L desktop is your ultimate gaming companion. With the latest Intel® processor and advanced graphics, the OMEN desktop features superior cooling system that prevents overheating.",
+    "HP OMEN 40L GT21-1031ns Intel Core i7-13700K/32GB/1TB SSD/RTX 4070 Ti",
+    "Processor: Intel Core i7-13700K; 
+    RAM Memory: 32GB DDR5; 
+    Storage: 1TB SSD; 
+    Graphics Card: NVIDIA GeForce RTX 4070 Ti; 
+    Cooling: Liquid cooling system; 
+    Connectivity: Wi-Fi 6E, Bluetooth 5.2; 
+    Ports: USB 3.2, HDMI, DisplayPort; 
+    Operating System: Windows 11 Home."
   )
   ;
 
