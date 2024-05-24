@@ -361,111 +361,111 @@ VALUES
     929,
     "HP", 
     "Laptop",
-    "La potencia de un ordenador de sobremesa en un equipo portátil. El portátil HP Victus se ha diseñado para jugar en máxima calidad. Este elegante portátil cuenta con un potente procesador AMD y gráficos NVIDIA.",
+    "The power of a desktop computer in a laptop. The HP Victus laptop is designed for top quality gaming. This stylish laptop features a powerful AMD processor and NVIDIA graphics.",
     "HP Victus 15-fb1002ns AMD Ryzen 5 7535HS/16GB/512GB SSD/RTX 2050/15.6",
-    "Procesador: AMD Ryzen 5 7535HS;
-    Memoria RAM: 16 GB;
-    Almacenamiento: 512 GB SSD;
-    Tarjeta gráfica: NVIDIA GeForce RTX 2050;
-    Tamaño de pantalla: 15.6 pulgadas."
+    "Processor: AMD Ryzen 5 7535HS;
+    RAM memory: 16 GB;
+    Storage: 512GB SSD;
+    Graphics card: NVIDIA GeForce RTX 2050;
+    Screen size: 15.6 inches."
   )
   ,(
     17,
     1349,
     "Lenovo",
     "Laptop",
-    "Reúne a tu escuadrón y zambúllete en los juegos para PC con estos dispositivos diseñados para sobrepasar los límites. Las plataformas de gaming Lenovo LOQ proporcionan toda la potencia que necesitas gracias a su procesadores de alta gama y sus GPU NVIDIA® GeForce RTX™. ",
+    "Gather your squad and dive into PC gaming with these devices designed to push the limits. Lenovo LOQ gaming platforms provide all the power you need thanks to their high-end processors and NVIDIA® GeForce RTX™ GPUs." ,
     "Lenovo LOQ 15IRH8 Intel Core i7-13620H/16GB/512GB SSD/RTX 4060/15.6",
-    "Procesador: Intel Core i7-13620H;
-    Memoria RAM: 16GB;
-    Almacenamiento: 512GB SSD;
-    Tarjeta gráfica: NVIDIA GeForce RTX 4060;
-    Pantalla: 15.6 pulgadas."
+    "Processor: Intel Core i7-13620H;
+    RAM memory: 16GB;
+    Storage: 512GB SSD;
+    Graphics card: NVIDIA GeForce RTX 4060;
+    Screen: 15.6 inches."
   )
   ,(
     18,
     1099,
     "Acer",
     "Laptop",
-    "Lleva tus aventuras gaming a otro nivel con el Acer Nitro V 15, tu pasaporte a un viaje cargado de adrenalina. Este portátil es la combinación perfecta de potencia y estilo, ya que supera los límites de lo que es posible en un portátil.",
+    "Take your gaming adventures to the next level with the Acer Nitro V 15, your passport to an adrenaline-fueled journey. This laptop is the perfect combination of power and style, pushing the limits of what is possible in a laptop." ,
     "Acer Nitro V 15 ANV15-51-579P Intel Core i5-13420H/16GB/512GB SSD/RTX 4050/15.6",
-    "Procesador: Intel Core i5-13420H;
-Memoria RAM: 16 GB;
-Almacenamiento: 512 GB SSD;
-Tarjeta gráfica: NVIDIA GeForce RTX 4050;
-Pantalla: 15.6 pulgadas"
+    "Processor: Intel Core i5-13420H;
+    RAM memory: 16 GB;
+    Storage: 512GB SSD;
+    Graphics card: NVIDIA GeForce RTX 4050;
+    Screen: 15.6 inches"
   )
   ,(
     19,
     1598,
     "MSI",
     "Laptop",
-    "La serie Sword recibió un rediseño legendario con un nuevo cuerpo gris cosmos, manteniendo el mismo perfil elegante y una potente refrigeración.",
+    "The Sword series received a legendary redesign with a new cosmos gray body, maintaining the same sleek profile and powerful cooling.",
     "MSI Sword 16 HX B14VFKG-054XES Intel Core i9-14900HX/32GB/1TB SSD/RTX 4060/16",
-    "Procesador: Intel Core i9-14900HX;
-Memoria RAM: 32GB;
-Almacenamiento: 1TB SSD;
-Tarjeta gráfica: NVIDIA GeForce RTX 4060;
-Tamaño de pantalla: 16 pulgadas;
-Sistema operativo: No especificado (probablemente Windows 11 o sin sistema operativo, dependiendo del distribuidor);
-Resolución de pantalla: No especificado (comúnmente Full HD o superior);
-Conectividad: Varias opciones, incluyendo puertos USB, HDMI, y posiblemente Thunderbolt;
-Teclado: Retroiluminado;
-Peso: No especificado (generalmente alrededor de 2-3 kg para portátiles de este tipo);
-Batería: No especificado (probablemente de 3 o 4 celdas);
-Audio: Altavoces estéreo y micrófono integrado;
-Cámara web: Integrada;
-Conectividad inalámbrica: WiFi 6 y Bluetooth 5.2 o superior."
+    "Processor: Intel Core i9-14900HX;
+    RAM memory: 32GB;
+    Storage: 1TB SSD;
+    Graphics card: NVIDIA GeForce RTX 4060;
+    Screen size: 16 inches;
+    Operating system: Not specified (probably Windows 11 or no operating system, depending on the distributor);
+    Screen resolution: Not specified (commonly Full HD or higher);
+    Connectivity: Various options, including USB, HDMI, and possibly Thunderbolt ports;
+    Backlight keyboard;
+    Weight: Not specified (usually around 2-3 kg for laptops of this type);
+    Battery: Not specified (probably 3 or 4 cells);
+    Audio: Stereo speakers and integrated microphone;
+    Webcam: Integrated;
+    Wireless connectivity: WiFi 6 and Bluetooth 5.2 or higher."
   )
   ,(
     20,
     669,
     "HP",
     "Laptop",
-    "El portátil HP de 15,6 pulgadas te da el poder para hacer más gracias a la potencia fiable del procesador Intel®, además de un amplio almacenamiento y unos gráficos potentes en un dispositivo elegante y cuidadosamente diseñado.",
+    "The HP 15.6-inch laptop gives you the power to do more with the reliable power of the Intel® processor, plus ample storage and powerful graphics in a sleek, thoughtfully designed device.",
     "HP 15-FD0079NS Intel Core i5-1334U/16GB/1TB SSD/15.6",
-    "Procesador: Intel Core i5-1334U;
-Memoria RAM: 16GB;
-Almacenamiento: 1TB SSD;
-Pantalla: 15.6 pulgadas;
-Modelo: HP 15-FD0079NS."
+    "Processor: Intel Core i5-1334U;
+    RAM memory: 16GB;
+    Storage: 1TB SSD;
+    Screen: 15.6 inches;
+    Model: HP 15-FD0079NS."
   )
   ,(
     21,
     1299,
     "MSI",
     "Laptop",
-    "Protege tu honor y derrota a los enemigos. Despierta tu poder interior y hereda la voluntad del Dragón. En tus manos está la Espada del Dragón, que fluye con un poder antiguo y está grabada con runas de viento. Derrota a cualquier enemigo que se interponga en tu camino con la espada legendaria Katana 15 B13V.",
+    "Protect your honor and defeat enemies. Awaken your inner power and inherit the will of the Dragon. In your hands is the Dragon Sword, flowing with ancient power and engraved with runes of wind. Defeat any enemy that comes your way. stand in your way with the legendary sword Katana 15 B13V.",
     "MSI Katana 15 B13VFK-1854XES Intel Core i7-13700H/16GB/1TB SSD/RTX 4060/15.6",
-    "Procesador: Intel Core i7-13700H;
-Memoria RAM: 16 GB;
-Almacenamiento: 1 TB SSD;
-Tarjeta gráfica: NVIDIA GeForce RTX 4060;
-Tamaño de pantalla: 15.6 pulgadas."
+    "Processor: Intel Core i7-13700H;
+    RAM memory: 16 GB;
+    Storage: 1TB SSD;
+    Graphics card: NVIDIA GeForce RTX 4060;
+    Screen size: 15.6 inches."
   ),(
     22,
     799,
     "MSI",
     "Laptop",
-    "A la llamada del Thunderbird, la aventurera despierta de su profundo sueño. El continente de fantasía ahora es diferente del pasado, con templos antiguos, bosques mágicos e islas flotantes situadas bajo el vasto cielo azul, cada una llena de numerosos secretos que esperan ser descubiertos.",
+    "At the call of the Thunderbird, the adventurer awakens from her deep slumber. The fantasy continent is now different from the past, with ancient temples, magical forests, and floating islands situated under the vast blue sky, each filled with numerous secrets waiting to be revealed.",
     "MSI Bravo 15 C7UDX-288XES AMD Ryzen 5 7535HS/16GB/512GB SSD/RTX 3050/15.6",
-    "Procesador: AMD Ryzen 5 7535HS;
-Memoria RAM: 16GB;
-Almacenamiento: 512GB SSD;
-Tarjeta gráfica: NVIDIA GeForce RTX 3050;
-Tamaño de pantalla: 15.6 pulgadas."
+    "Processor: AMD Ryzen 5 7535HS;
+    RAM memory: 16GB;
+    Storage: 512GB SSD;
+    Graphics card: NVIDIA GeForce RTX 3050;
+    Screen size: 15.6 inches."
   ),(
     23,
     2199,
     "MSI",
     "Laptop",
-    "El nuevo Pulse 16 AI es más potente e inteligente que nunca. Después de años de dominio, Los Guerreros Dragón enfrentan nuevas amenazas.",
+    "The new Pulse 16 AI is more powerful and smarter than ever. After years of dominance, the Dragon Warriors face new threats.",
     "MSI Pulse 16 AI C1VGKG-024XES Intel Core Ultra 9 185H/32GB/1TB SSD/RTX 4070/16",
-    "Procesador: Intel Core Ultra 9 185H;
-Memoria RAM: 32GB;
-Almacenamiento: 1TB SSD;
-Tarjeta Gráfica: NVIDIA GeForce RTX 4070;
-Tamaño de Pantalla: 16 pulgadas."
+    "Processor: Intel Core Ultra 9 185H;
+    RAM memory: 32GB;
+    Storage: 1TB SSD;
+    Graphics Card: NVIDIA GeForce RTX 4070;
+    Screen Size: 16 inches."
   )
   ;
 
