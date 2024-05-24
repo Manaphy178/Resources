@@ -650,8 +650,181 @@ VALUES
     Connectivity: Wi-Fi 6E, Bluetooth 5.2; 
     Ports: USB 3.2, HDMI, DisplayPort; 
     Operating System: Windows 11 Home."
-  )
-  ;
+  ),
+  (
+    35, -- ID
+    414, -- Value
+    "Apple", -- Marca
+    "Tablet", -- Tipo
+    "El iPad ha pegado un cambiazo. Ahora tiene una espectacular pantalla Liquid Retina de 10,9 pulgadas con diseño de borde a borde*.Consulta los avisos legales y funciona con básicos como el nuevo Magic Keyboard Folio y el Apple Pencil (1.ª generación).*", -- Desc
+    "Apple iPad 2022 10.9 WiFi 64GB Plata", -- Name
+    "Pantalla: 10.9 pulgadas de tamaño con tecnología Retina;
+    Conectividad: WiFi para acceso a internet;
+    Almacenamiento: 64GB de capacidad para guardar aplicaciones, fotos y archivos;
+    Color: Disponible en plata, ofreciendo un diseño elegante y moderno;
+    Sistema Operativo: Ejecuta el último sistema operativo de Apple, ofreciendo actualizaciones de software y compatibilidad con las últimas aplicaciones;
+    Rendimiento: Potente rendimiento gracias al chip A-series de Apple, proporcionando una experiencia fluida y rápida;
+    Cámara: Cámaras de alta calidad para tomar fotos y videos nítidos, ideal para videollamadas y capturar momentos especiales;
+    Batería: Batería de larga duración que proporciona horas de uso continuo;
+    Accesorios: Compatible con una variedad de accesorios opcionales, como el Apple Pencil y el teclado Smart Keyboard, para una experiencia de uso aún más versátil." -- Caract
+  ),
+  (
+    36, -- ID
+    119, -- Value
+    "Woxter", -- Marca
+    "Tablet", -- Tipo
+    "Si llevas tu tablet Android a todas partes y aprovechas cualquier rato para ver tus pelis y series favoritas, X-100 Pro te encantará. Su pantalla panorámica HD de 10.1 pulgadas es perfecta para visualizar todo tipo de imágenes en formato 10:16. ", -- Desc
+    "Woxter X-100 Pro 10.1 2/16GB Negra", -- Name
+    "Pantalla: 10.1 pulgadas;
+Memoria RAM: 2GB;
+Almacenamiento interno: 16GB;
+Color: Negra;
+Sistema operativo: Android;
+Cámara frontal y trasera;
+Conectividad: WiFi y Bluetooth;
+Puertos: Micro USB, HDMI;
+Batería de larga duración;
+Diseño ligero y PORT." -- Caract
+  ),
+  (
+    37, -- ID
+    299, -- Value
+    "Samsung", -- Marca
+    "Tablet", -- Tipo
+    "Con el diseño por bandera. Cada elemento del aspecto de Galaxy Tab A9+ ha sido cuidado hasta el milímetro para dar lugar a una tablet elegante que mantiene el equilibrio entre las estéticas clásica y moderna. Puedes conseguirla en uno de los colores característicos de Samsung: Graphite o Silver.", -- Desc
+    "Tablet Samsung Galaxy Tab A9+ WiFi 11 8/128GB Plata", -- Name
+    "Pantalla: La Tablet Samsung Galaxy Tab A9+ WiFi 11 pulgadas cuenta con una pantalla de 11 pulgadas para una experiencia visual inmersiva;
+Almacenamiento: Ofrece una capacidad de almacenamiento interno de 128GB, permitiendo guardar una gran cantidad de aplicaciones, fotos, videos y documentos;
+Conectividad: Dispone de conectividad WiFi para acceder a Internet de manera inalámbrica;
+Color: Viene en color Plata, ofreciendo un diseño elegante y moderno;
+Memoria RAM: Cuenta con 8GB de memoria RAM para un rendimiento fluido y multitarea eficiente;
+Cámara: Incorpora cámaras trasera y frontal para capturar fotos y videos con calidad;
+Sistema Operativo: Opera con el sistema Android, lo que permite acceder a una amplia gama de aplicaciones y servicios en Google Play Store;
+Batería: Ofrece una batería de larga duración para un uso prolongado sin interrupciones;
+Dimensiones y Peso: Tiene dimensiones compactas y un peso ligero para facilitar su transporte y manejo en cualquier lugar;
+Audio: Proporciona una experiencia de audio inmersiva gracias a sus altavoces de calidad." -- Caract
+  ),
+  (
+    35, -- ID
+    414, -- Value
+    "Apple", -- Brand
+    "Tablet", -- Type
+    "The iPad has had a makeover. Now it has a spectacular 10.9-inch Liquid Retina display with edge-to-edge design. Check legal notices and works with basics like the new Magic Keyboard Folio and the Apple Pencil (1st generation).", -- Description
+    "Apple iPad 2022 10.9 WiFi 64GB Silver", -- Name
+    "Screen: 10.9-inch size with Retina technology;
+    Connectivity: WiFi for internet access;
+    Storage: 64GB capacity to store apps, photos, and files;
+    Color: Available in silver, offering an elegant and modern design;
+    Operating System: Runs the latest Apple operating system, offering software updates and compatibility with the latest apps;
+    Performance: Powerful performance thanks to Apples A-series chip, providing a smooth and fast experience;
+    Camera: High-quality cameras for taking sharp photos and videos, ideal for video calls and capturing special moments;
+    Battery: Long-lasting battery that provides hours of continuous use;
+    Accessories: Compatible with a variety of optional accessories, such as the Apple Pencil and Smart Keyboard, for an even more versatile user experience." -- Features
+  ),
+  (
+    36, -- ID
+    119, -- Value
+    "Woxter", -- Brand
+    "Tablet", -- Type
+    "If you take your Android tablet everywhere and take advantage of any time to watch your favorite movies and series, X-100 Pro will delight you. Its 10.1-inch HD widescreen display is perfect for viewing all kinds of images in 10:16 format.", -- Description
+    "Woxter X-100 Pro 10.1 2/16GB Black", -- Name
+    "Screen: 10.1 inches;
+RAM: 2GB;
+Internal storage: 16GB;
+Color: Black;
+Operating system: Android;
+Front and rear camera;
+Connectivity: WiFi and Bluetooth;
+Ports: Micro USB, HDMI;
+Long-lasting battery;
+Lightweight and PORT design." -- Features
+  ),
+  (
+    37, -- ID
+    299, -- Value
+    "Samsung", -- Brand
+    "Tablet", -- Type
+    "With design at its core. Every element of the Galaxy Tab A9+ appearance has been carefully crafted to create an elegant tablet that balances classic and modern aesthetics. You can get it in one of Samsung's characteristic colors: Graphite or Silver.", -- Description
+    "Samsung Galaxy Tab A9+ WiFi 11 Tablet 8/128GB Silver", -- Name
+    "Screen: The Samsung Galaxy Tab A9+ WiFi 11-inch Tablet features an 11-inch screen for an immersive visual experience;
+Storage: It offers an internal storage capacity of 128GB, allowing you to store a large number of apps, photos, videos, and documents;
+Connectivity: It has WiFi connectivity for wireless internet access;
+Color: Comes in Silver color, offering an elegant and modern design;
+RAM: It has 8GB of RAM for smooth performance and efficient multitasking;
+Camera: It incorporates front and rear cameras for capturing quality photos and videos;
+Operating System: It operates on the Android system, allowing access to a wide range of apps and services on the Google Play Store;
+Battery: It offers long-lasting battery life for prolonged uninterrupted use;
+Dimensions and Weight: It has compact dimensions and lightweight for easy transportation and handling anywhere;
+Audio: It provides an immersive audio experience thanks to its quality speakers." -- Features
+  ),
+  (
+    38, -- ID
+    199, -- Value
+    "Lenovo", -- Brand
+    "Tablet", -- Type
+    "Discover a world of possibilities with the Lenovo Tab M11 tablet, designed to elevate your digital experience to new levels. Immerse yourself in a stunning 11-inch display, enjoying vibrant colors and sharp details thanks to its IPS technology and 400 nits brightness.", -- Description
+    "Lenovo Tab M11 11-inch 4/128GB Gray + Pen Stylus", -- Name
+    "Screen: 11 inches;
+RAM: 4 GB;
+Storage capacity: 128 GB;
+Color: Gray;
+Includes Pen Stylus: Yes." -- Features
+  ),
+  (
+    39, -- ID
+    139, -- Value
+    "Lenovo", -- Brand
+    "Tablet", -- Type
+    "Embrace your elegant side with the Lenovo Tab M9 tablet in two available tones: Arctic Grey or Frost Blue. Its slim and lightweight design makes it perfect to take it wherever life takes you.", -- Description
+    "Lenovo Tab M9 9 3/32GB WiFi Arctic Gray", -- Name
+    "Screen size: 9 inches;
+Internal storage: 32GB;
+RAM: 3GB;
+Connectivity: WiFi;
+Color: Arctic Gray." -- Features
+  ),
+  (
+    40, -- ID
+    249, -- Value
+    "TCL", -- Brand
+    "Tablet", -- Type
+    "The freedom to read like on paper with the TCL NXTPAPER 11-inch tablet. Enjoy bright and intense colors on a dynamic paper-like display that has 150% more brightness than previous generation displays.", -- Description
+    "TCL NXTPAPER 11-inch 2K 4/128GB Dark Gray", -- Name
+    "Screen: NXTPAPER 11-inch with 2K resolution;
+Storage: 128GB internal storage;
+RAM: 4GB RAM;
+Color: Dark Gray." -- Features
+  ),
+  (
+    41, -- ID
+    299, -- Value
+    "Lenovo", -- Brand
+    "Tablet", -- Type
+    "Get more into the story while watching your favorite movies and shows on the expansive 2K, 11.5-inch screen of the Lenovo Tab P11 (2nd Gen) tablet.", -- Description
+    "Lenovo Tab P11 (2nd Gen) 11.5-inch 2K 4/128GB Gray + Precision Pen 2", -- Name
+    "Screen: Lenovo Tab P11 (2nd Gen) has an 11.5-inch screen with 2K resolution for a sharp and detailed visual experience.;
+RAM: It comes with 4GB of RAM for smooth multitasking performance.;
+Storage: It comes with a 128GB internal storage capacity, offering enough space for your apps, photos, videos, and files.;
+Color: The model you mentioned is in gray color, giving it an elegant and modern look.;
+Includes Precision Pen 2: It comes with the Precision Pen 2 optical pen, allowing for precise and natural interaction with the touchscreen." -- Features
+  ),
+  (
+    42, -- ID
+    353, -- Value
+    "LG", -- Brand
+    "Other", -- Type
+    "4K UHD, vibrant display in ultra-high resolution. LG UHD TVs always exceed your expectations. Experience realistic image quality and vivid colors with pixel accuracy four times higher than Full HD.", -- Description
+    "LG 43UR781C0LK 43-inch LED UltraHD 4K HDR10", -- Name
+    "Display: 43-inch LED with UltraHD 4K resolution;
+HDR10 technology for higher image quality;
+Elegant and slim design that fits into any space;
+Connectivity: HDMI and USB ports for easy connection of devices;
+Smart Features: Compatible with voice assistants and smart home control systems;
+Sound: Integrated speaker system for an immersive audio experience;
+Additional features: access to streaming applications and online content;
+Intuitive and easy-to-use remote control." -- Characteristics
+  );
+
 -- CLIENTES
 INSERT INTO
   `client` (
