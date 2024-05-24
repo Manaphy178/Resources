@@ -560,16 +560,16 @@ VALUES
 
 -- CLIENTES
 INSERT INTO `client` (`idClient`, `dni`, `username`, `name`, `lastname`, `province`, `cp`, `address`) VALUES
-(1, '12345678A', 'jdoe', 'John', 'Doe', 'Madrid', 28001, 'Calle Falsa 123'),
-(2, '23456789B', 'asmith', 'Alice', 'Smith', 'Barcelona', 08001, 'Avenida Siempre Viva 742'),
-(3, '34567890C', 'bwhite', 'Bob', 'White', 'Valencia', 46001, 'Calle Luna 456'),
-(4, '45678901D', 'cjohnson', 'Charlie', 'Johnson', 'Sevilla', 41001, 'Calle Sol 789'),
-(5, '56789012E', 'ddavis', 'David', 'Davis', 'Bilbao', 48001, 'Calle Mar 123'),
-(6, '67890123F', 'eclark', 'Eva', 'Clark', 'Zaragoza', 50001, 'Calle Tierra 456'),
-(7, '78901234G', 'fmartin', 'Frank', 'Martin', 'Málaga', 29001, 'Calle Viento 789'),
-(8, '89012345H', 'glopez', 'Grace', 'Lopez', 'Murcia', 30001, 'Calle Fuego 123'),
-(9, '90123456I', 'hharris', 'Henry', 'Harris', 'Granada', 18001, 'Calle Agua 456'),
-(10, '01234567J', 'ikim', 'Irene', 'Kim', 'Alicante', 03001, 'Calle Madera 789');
+(1, '12345678A', 'Lord Coordinador', 'Jorge', 'López-Dóriga', 'Madrid', 28001, 'Calle Aprobado 123'),
+(2, '23456789B', 'Lord Profesor', 'Brais', 'Martínez', 'Madrid', 28001, 'Avenida Android Studio 68'),
+(3, '34567890C', 'SQLMaster', 'David', 'Caramazana', 'Madrid', 28001, 'Calle SQL 456'),
+(4, '45678901D', 'VivaRayito', 'Álvaro', 'Fernández', 'Madrid', 28001, 'Calle del Rayo 789'),
+(5, '56789012E', 'PDBlas', 'Patricia', 'De Blas', 'Madrid', 28001, 'Calle Mar 123'),
+(6, '67890123F', 'Yisus', 'Luis', 'Juarros', 'Madrid', 28001, 'Calle Cable 456'),
+(7, '78901234G', 'Pr4dos', 'Sergio', 'Prados', 'Granada', 18001, 'Calle Arlequín 789'),
+(8, '89012345H', 'Mana', 'Javier', 'González', 'Madrid', 28440, 'Calle Sala 123'),
+(9, '90123456I', 'Roxo', 'Rodrigo', 'Fernández', 'Madrid', 28001, 'Calle Bizarra 456'),
+(10, '01234567J', 'Abuelo', 'Zigor', 'Mateos', 'Madrid', 28910, 'Calle Madera 789');
 
 -- Insert 30 records into the sale table
 INSERT INTO `sale` (`idSales`, `saleDate`, `total`, `idClient`) VALUES
