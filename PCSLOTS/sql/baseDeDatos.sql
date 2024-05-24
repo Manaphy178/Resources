@@ -355,11 +355,11 @@ VALUES
     Security: Fingerprint reader.;
     Weight: 2.2 kg.;
     Dimensions: 361 x 258 x 27.9 mm.;"
-  )
-  ,(
+  ),
+  (
     16,
     929,
-    "HP", 
+    "HP",
     "Laptop",
     "The power of a desktop computer in a laptop. The HP Victus laptop is designed for top quality gaming. This stylish laptop features a powerful AMD processor and NVIDIA graphics.",
     "HP Victus 15-fb1002ns AMD Ryzen 5 7535HS/16GB/512GB SSD/RTX 2050/15.6",
@@ -368,34 +368,34 @@ VALUES
     Storage: 512GB SSD;
     Graphics card: NVIDIA GeForce RTX 2050;
     Screen size: 15.6 inches."
-  )
-  ,(
+  ),
+  (
     17,
     1349,
     "Lenovo",
     "Laptop",
-    "Gather your squad and dive into PC gaming with these devices designed to push the limits. Lenovo LOQ gaming platforms provide all the power you need thanks to their high-end processors and NVIDIA® GeForce RTX™ GPUs." ,
+    "Gather your squad and dive into PC gaming with these devices designed to push the limits. Lenovo LOQ gaming platforms provide all the power you need thanks to their high-end processors and NVIDIA® GeForce RTX™ GPUs.",
     "Lenovo LOQ 15IRH8 Intel Core i7-13620H/16GB/512GB SSD/RTX 4060/15.6",
     "Processor: Intel Core i7-13620H;
     RAM memory: 16GB;
     Storage: 512GB SSD;
     Graphics card: NVIDIA GeForce RTX 4060;
     Screen: 15.6 inches."
-  )
-  ,(
+  ),
+  (
     18,
     1099,
     "Acer",
     "Laptop",
-    "Take your gaming adventures to the next level with the Acer Nitro V 15, your passport to an adrenaline-fueled journey. This laptop is the perfect combination of power and style, pushing the limits of what is possible in a laptop." ,
+    "Take your gaming adventures to the next level with the Acer Nitro V 15, your passport to an adrenaline-fueled journey. This laptop is the perfect combination of power and style, pushing the limits of what is possible in a laptop.",
     "Acer Nitro V 15 ANV15-51-579P Intel Core i5-13420H/16GB/512GB SSD/RTX 4050/15.6",
     "Processor: Intel Core i5-13420H;
     RAM memory: 16 GB;
     Storage: 512GB SSD;
     Graphics card: NVIDIA GeForce RTX 4050;
     Screen: 15.6 inches"
-  )
-  ,(
+  ),
+  (
     19,
     1598,
     "MSI",
@@ -416,8 +416,8 @@ VALUES
     Audio: Stereo speakers and integrated microphone;
     Webcam: Integrated;
     Wireless connectivity: WiFi 6 and Bluetooth 5.2 or higher."
-  )
-  ,(
+  ),
+  (
     20,
     669,
     "HP",
@@ -429,8 +429,8 @@ VALUES
     Storage: 1TB SSD;
     Screen: 15.6 inches;
     Model: HP 15-FD0079NS."
-  )
-  ,(
+  ),
+  (
     21,
     1299,
     "MSI",
@@ -442,7 +442,8 @@ VALUES
     Storage: 1TB SSD;
     Graphics card: NVIDIA GeForce RTX 4060;
     Screen size: 15.6 inches."
-  ),(
+  ),
+  (
     22,
     799,
     "MSI",
@@ -454,7 +455,8 @@ VALUES
     Storage: 512GB SSD;
     Graphics card: NVIDIA GeForce RTX 3050;
     Screen size: 15.6 inches."
-  ),(
+  ),
+  (
     23,
     2199,
     "MSI",
@@ -466,7 +468,8 @@ VALUES
     Storage: 1TB SSD;
     Graphics Card: NVIDIA GeForce RTX 4070;
     Screen Size: 16 inches."
-  ),(
+  ),
+  (
     24,
     848,
     "MSI",
@@ -542,7 +545,8 @@ VALUES
     Operating System: Android 13 with One UI 5.1; 
     Connectivity: Wi-Fi 6E, Bluetooth 5.3, NFC; 
     Dimensions: 164.9 x 75.5 x 8.9 mm"
-  ),(
+  ),
+  (
     28,
     889,
     "PCcom Ready",
@@ -648,100 +652,203 @@ VALUES
     Operating System: Windows 11 Home."
   )
   ;
-
 -- CLIENTES
-INSERT INTO `client` (`idClient`, `dni`, `username`, `name`, `lastname`, `province`, `cp`, `address`) VALUES
-(1, '12345678A', 'Lord Coordinador', 'Jorge', 'López-Dóriga', 'Madrid', 28001, 'Calle Aprobado 123'),
-(2, '23456789B', 'Lord Profesor', 'Brais', 'Martínez', 'Madrid', 28001, 'Avenida Android Studio 68'),
-(3, '34567890C', 'SQLMaster', 'David', 'Caramazana', 'Madrid', 28001, 'Calle SQL 456'),
-(4, '45678901D', 'VivaRayito', 'Álvaro', 'Fernández', 'Madrid', 28001, 'Calle del Rayo 789'),
-(5, '56789012E', 'PDBlas', 'Patricia', 'De Blas', 'Madrid', 28001, 'Calle Mar 123'),
-(6, '67890123F', 'Yisus', 'Luis', 'Juarros', 'Madrid', 28001, 'Calle Cable 456'),
-(7, '78901234G', 'Pr4dos', 'Sergio', 'Prados', 'Granada', 18001, 'Calle Arlequín 789'),
-(8, '89012345H', 'Mana', 'Javier', 'González', 'Madrid', 28440, 'Calle Sala 123'),
-(9, '90123456I', 'Roxo', 'Rodrigo', 'Fernández', 'Madrid', 28001, 'Calle Bizarra 456'),
-(10, '01234567J', 'Abuelo', 'Zigor', 'Mateos', 'Madrid', 28910, 'Calle Madera 789');
+INSERT INTO
+  `client` (
+    `idClient`,
+    `dni`,
+    `username`,
+    `name`,
+    `lastname`,
+    `province`,
+    `cp`,
+    `address`
+  )
+VALUES
+  (
+    1,
+    '12345678A',
+    'Lord Coordinador',
+    'Jorge',
+    'López-Dóriga',
+    'Madrid',
+    28001,
+    'Calle Aprobado 123'
+  ),
+  (
+    2,
+    '23456789B',
+    'Lord Profesor',
+    'Brais',
+    'Martínez',
+    'Madrid',
+    28001,
+    'Avenida Android Studio 68'
+  ),
+  (
+    3,
+    '34567890C',
+    'SQLMaster',
+    'David',
+    'Caramazana',
+    'Madrid',
+    28001,
+    'Calle SQL 456'
+  ),
+  (
+    4,
+    '45678901D',
+    'VivaRayito',
+    'Álvaro',
+    'Fernández',
+    'Madrid',
+    28001,
+    'Calle del Rayo 789'
+  ),
+  (
+    5,
+    '56789012E',
+    'PDBlas',
+    'Patricia',
+    'De Blas',
+    'Madrid',
+    28001,
+    'Calle Mar 123'
+  ),
+  (
+    6,
+    '67890123F',
+    'Yisus',
+    'Luis',
+    'Juarros',
+    'Madrid',
+    28001,
+    'Calle Cable 456'
+  ),
+  (
+    7,
+    '78901234G',
+    'Pr4dos',
+    'Sergio',
+    'Prados',
+    'Granada',
+    18001,
+    'Calle Arlequín 789'
+  ),
+  (
+    8,
+    '89012345H',
+    'Mana',
+    'Javier',
+    'González',
+    'Madrid',
+    28440,
+    'Calle Sala 123'
+  ),
+  (
+    9,
+    '90123456I',
+    'Roxo',
+    'Rodrigo',
+    'Fernández',
+    'Madrid',
+    28001,
+    'Calle Bizarra 456'
+  ),
+  (
+    10,
+    '01234567J',
+    'Abuelo',
+    'Zigor',
+    'Mateos',
+    'Madrid',
+    28910,
+    'Calle Madera 789'
+  );
 
 -- Insert 30 records into the sale table
-INSERT INTO `sale` (`idSales`, `saleDate`, `total`, `idClient`) VALUES
-(1, '2023-01-15', 1299.00, 1),
-(2, '2023-01-16', 739.00, 2),
-(3, '2023-01-17', 859.00, 3),
-(4, '2023-01-18', 299.00, 4),
-(5, '2023-01-19', 329.00, 5),
-(6, '2023-01-20', 408.00, 6),
-(7, '2023-01-21', 449.00, 7),
-(8, '2023-01-22', 229.00, 8),
-(9, '2023-01-23', 399.00, 9),
-(10, '2023-01-24', 1239.00, 10),
-(11, '2023-01-25', 1549.00, 1),
-(12, '2023-01-26', 279.00, 2),
-(13, '2023-01-27', 224.00, 3),
-(14, '2023-01-28', 699.00, 4),
-(15, '2023-01-29', 329.00, 5),
-(16, '2023-01-30', 859.00, 6),
-(17, '2023-02-01', 739.00, 7),
-(18, '2023-02-02', 449.00, 8),
-(19, '2023-02-03', 229.00, 9),
-(20, '2023-02-04', 408.00, 10),
-(21, '2023-02-05', 1299.00, 1),
-(22, '2023-02-06', 1239.00, 2),
-(23, '2023-02-07', 1549.00, 3),
-(24, '2023-02-08', 299.00, 4),
-(25, '2023-02-09', 329.00, 5),
-(26, '2023-02-10', 739.00, 6),
-(27, '2023-02-11', 859.00, 7),
-(28, '2023-02-12', 399.00, 8),
-(29, '2023-02-13', 449.00, 9),
-(30, '2023-02-14', 229.00, 10);
+INSERT INTO
+  `sale` (`idSales`, `saleDate`, `total`, `idClient`)
+VALUES
+  (1, '2023-01-15', 1299.00, 1),
+  (2, '2023-01-16', 739.00, 2),
+  (3, '2023-01-17', 859.00, 3),
+  (4, '2023-01-18', 299.00, 4),
+  (5, '2023-01-19', 329.00, 5),
+  (6, '2023-01-20', 408.00, 6),
+  (7, '2023-01-21', 449.00, 7),
+  (8, '2023-01-22', 229.00, 8),
+  (9, '2023-01-23', 399.00, 9),
+  (10, '2023-01-24', 1239.00, 10),
+  (11, '2023-01-25', 1549.00, 1),
+  (12, '2023-01-26', 279.00, 2),
+  (13, '2023-01-27', 224.00, 3),
+  (14, '2023-01-28', 699.00, 4),
+  (15, '2023-01-29', 329.00, 5),
+  (16, '2023-01-30', 859.00, 6),
+  (17, '2023-02-01', 739.00, 7),
+  (18, '2023-02-02', 449.00, 8),
+  (19, '2023-02-03', 229.00, 9),
+  (20, '2023-02-04', 408.00, 10),
+  (21, '2023-02-05', 1299.00, 1),
+  (22, '2023-02-06', 1239.00, 2),
+  (23, '2023-02-07', 1549.00, 3),
+  (24, '2023-02-08', 299.00, 4),
+  (25, '2023-02-09', 329.00, 5),
+  (26, '2023-02-10', 739.00, 6),
+  (27, '2023-02-11', 859.00, 7),
+  (28, '2023-02-12', 399.00, 8),
+  (29, '2023-02-13', 449.00, 9),
+  (30, '2023-02-14', 229.00, 10);
 
 -- Insert 30 records into the sales_line table
-INSERT INTO `sales_line` (`idLines`, `idSales`, `product`, `units`, `unit_price`) VALUES
-(1, 1, 1, 1, 1299.00),
-(2, 2, 2, 1, 739.00),
-(3, 3, 3, 1, 859.00),
-(4, 4, 4, 1, 299.00),
-(5, 5, 5, 1, 329.00),
-(6, 6, 6, 1, 408.00),
-(7, 7, 7, 1, 449.00),
-(8, 8, 8, 1, 229.00),
-(9, 9, 9, 1, 399.00),
-(10, 10, 10, 1, 1239.00),
-(11, 11, 11, 1, 1549.00),
-(12, 12, 12, 1, 279.00),
-(13, 13, 13, 1, 224.00),
-(14, 14, 1, 1, 699.00),
-(15, 15, 2, 1, 329.00),
-(16, 16, 3, 1, 859.00),
-(17, 17, 4, 1, 739.00),
-(18, 18, 5, 1, 449.00),
-(19, 19, 6, 1, 229.00),
-(20, 20, 7, 1, 408.00),
-(21, 21, 8, 1, 1299.00),
-(22, 22, 9, 1, 1239.00),
-(23, 23, 10, 1, 1549.00),
-(24, 24, 11, 1, 299.00),
-(25, 25, 12, 1, 329.00),
-(26, 26, 13, 1, 739.00),
-(27, 27, 1, 1, 859.00),
-(28, 28, 2, 1, 399.00),
-(29, 29, 3, 1, 449.00),
-(30, 30, 4, 1, 229.00);
+INSERT INTO
+  `sales_line` (
+    `idLines`,
+    `idSales`,
+    `product`,
+    `units`,
+    `unit_price`
+  )
+VALUES
+  (1, 1, 1, 1, 1299.00),
+  (2, 2, 2, 1, 739.00),
+  (3, 3, 3, 1, 859.00),
+  (4, 4, 4, 1, 299.00),
+  (5, 5, 5, 1, 329.00),
+  (6, 6, 6, 1, 408.00),
+  (7, 7, 7, 1, 449.00),
+  (8, 8, 8, 1, 229.00),
+  (9, 9, 9, 1, 399.00),
+  (10, 10, 10, 1, 1239.00),
+  (11, 11, 11, 1, 1549.00),
+  (12, 12, 12, 1, 279.00),
+  (13, 13, 13, 1, 224.00),
+  (14, 14, 1, 1, 699.00),
+  (15, 15, 2, 1, 329.00),
+  (16, 16, 3, 1, 859.00),
+  (17, 17, 4, 1, 739.00),
+  (18, 18, 5, 1, 449.00),
+  (19, 19, 6, 1, 229.00),
+  (20, 20, 7, 1, 408.00),
+  (21, 21, 8, 1, 1299.00),
+  (22, 22, 9, 1, 1239.00),
+  (23, 23, 10, 1, 1549.00),
+  (24, 24, 11, 1, 299.00),
+  (25, 25, 12, 1, 329.00),
+  (26, 26, 13, 1, 739.00),
+  (27, 27, 1, 1, 859.00),
+  (28, 28, 2, 1, 399.00),
+  (29, 29, 3, 1, 449.00),
+  (30, 30, 4, 1, 229.00);
 
 -- HACER CLAVES PRIMARIAS
 -- ALTER TABLE `cases` ADD PRIMARY KEY (`idCase`);
 ALTER TABLE `client` ADD PRIMARY KEY (`idClient`);
-
-
 
 ALTER TABLE `sales_line` ADD PRIMARY KEY (`idLines`);
 
 -- HACER QUE SEAN INCREMENTABLES
 -- ALTER TABLE `cases`
 --   MODIFY `idCase` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
-
-
 ALTER TABLE `sales_line` MODIFY `idLines` int (11) NOT NULL AUTO_INCREMENT;
-
-
