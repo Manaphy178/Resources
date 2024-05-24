@@ -71,38 +71,38 @@ VALUES
     1299,
     "Apple",
     "Mobile",
-    "iPhone 15 Pro Max. Forjado en titanio y con el revolucionario chip A17 Pro, un botón Acción personalizable y el sistema de cámaras más potente que haya tenido un iPhone.",
-    "Apple iPhone 15 Pro Max 256GB Titanio Blanco Libre",
-    "Pantalla: 6.7 pulgadas Super Retina XDR, tecnología ProMotion, resolución de 2796 x 1290 píxeles.;
-    Procesador: Chip A17 Pro.;
-    Capacidad: 256GB de almacenamiento interno.;
-    Cámara Trasera: Sistema de triple cámara con lentes de 48 MP (principal), ultra gran angular de 12 MP y teleobjetivo de 12 MP.;
-    Cámara Frontal: 12 MP con tecnología TrueDepth.;
-    Materiales: Marco de titanio y parte trasera de vidrio.;
-    Sistema Operativo: iOS 17.;
-    Conectividad: 5G, Wi-Fi 6E, Bluetooth 5.3, NFC.;
-    Batería: Duración de la batería mejorada con soporte para carga rápida y carga inalámbrica MagSafe.;
-    Seguridad: Face ID para reconocimiento facial.;
-    Otros: Resistencia al agua y polvo (IP68), compatibilidad con accesorios MagSafe.; "
+    "iPhone 15 Pro Max. Forged from titanium and featuring the revolutionary A17 Pro chip, a customizable Action button and the most powerful camera system ever on an iPhone.",
+    "Apple iPhone 15 Pro Max 256GB Titanium White Free",
+    "Display: 6.7 inches Super Retina XDR, ProMotion technology, resolution of 2796 x 1290 pixels.;
+    Processor: A17 Pro Chip.;
+    Capacity: 256GB internal storage.;
+    Rear Camera: Triple camera system with 48 MP (main), 12 MP ultra wide angle and 12 MP telephoto lenses.;
+    Front Camera: 12 MP with TrueDepth technology.;
+    Materials: Titanium frame and glass back.;
+    Operating System: iOS 17.;
+    Connectivity: 5G, Wi-Fi 6E, Bluetooth 5.3, NFC.;
+    Battery: Improved battery life with support for fast charging and MagSafe wireless charging.;
+    Security: Face ID for facial recognition;
+    Others: Water and dust resistance (IP68), compatibility with MagSafe accessories.; "
   ),
   (
     2,
     739,
     "Apple",
     "Mobile",
-    "iPhone 13: Tu nuevo superpoder. Nuestro sistema de cámara dual más avanzado. El chip que hace morder el polvo a la competencia. Un subidón de autonomía que vaya si notarás.",
-    "Apple iPhone 13 128GB Medianoche Libre",
-    "Pantalla: 6.1 pulgadas Super Retina XDR, resolución de 2532 x 1170 píxeles.;
-    Procesador: Chip A15 Bionic.;
-    Capacidad: 128GB de almacenamiento interno.;
-    Cámara Trasera: Sistema de doble cámara con lentes de 12 MP (principal y ultra gran angular).;
-    Cámara Frontal: 12 MP con tecnología TrueDepth.;
-    Materiales: Parte delantera y trasera de vidrio con marco de aluminio.;
-    Sistema Operativo: iOS 15 (actualizable a versiones posteriores).;
-    Conectividad: 5G, Wi-Fi 6, Bluetooth 5.0, NFC.;
-    Batería: Duración de la batería mejorada con soporte para carga rápida y carga inalámbrica MagSafe.;
-    Seguridad: Face ID para reconocimiento facial.;
-    Resistencia: Resistencia al agua y polvo (IP68).
+    "iPhone 13: Your new superpower. Our most advanced dual camera system. The chip that makes the competition bite the dust. A boost in autonomy that you will definitely notice.",
+    "Apple iPhone 13 128GB Midnight Free",
+    "Display: 6.1 inches Super Retina XDR, resolution of 2532 x 1170 pixels.;
+    Processor: A15 Bionic Chip.;
+    Capacity: 128GB internal storage.;
+    Rear Camera: Dual camera system with 12 MP lenses (main and ultra wide angle).;
+    Front Camera: 12 MP with TrueDepth technology.;
+    Materials: Glass front and back with aluminum frame.;
+    Operating System: iOS 15 (upgradable to later versions).;
+    Connectivity: 5G, Wi-Fi 6, Bluetooth 5.0, NFC.;
+    Battery: Improved battery life with support for fast charging and MagSafe wireless charging.;
+    Security: Face ID for facial recognition;
+    Resistance: Water and dust resistance (IP68).
     "
   ),
   (
@@ -110,20 +110,20 @@ VALUES
     859,
     "Apple",
     "Mobile",
-    "Belleza duradera con aluminio de calidad aeroespacial. Espectacular pantalla Super Retina XDR. Ceramic Shield, más duro que cualquier vidrio de smartphone.",
-    "Apple iPhone 14 128GB Medianoche Libre",
-    "Pantalla: 6.1 pulgadas Super Retina XDR, resolución de 2532 x 1170 píxeles.;
-    Procesador: Chip A15 Bionic (con GPU de 5 núcleos).;
-    Capacidad: 128GB de almacenamiento interno.;
-    Cámara Trasera: Sistema de doble cámara con lentes de 12 MP (principal y ultra gran angular).;
-    Cámara Frontal: 12 MP con tecnología TrueDepth.;
-    Materiales: Parte delantera y trasera de vidrio con marco de aluminio.;
-    Sistema Operativo: iOS 16 (actualizable a versiones posteriores).;
-    Conectividad: 5G, Wi-Fi 6, Bluetooth 5.3, NFC.;
-    Batería: Duración de la batería mejorada con soporte para carga rápida y carga inalámbrica MagSafe.;
-    Seguridad: Face ID para reconocimiento facial.;
-    Resistencia: Resistencia al agua y polvo (IP68).;
-    Otros: Compatible con accesorios MagSafe.;
+    "Long-lasting beauty with aerospace-grade aluminum. Spectacular Super Retina XDR display. Ceramic Shield, harder than any smartphone glass.",
+    "Apple iPhone 14 128GB Midnight Free",
+    "Display: 6.1 inches Super Retina XDR, resolution of 2532 x 1170 pixels.;
+    Processor: A15 Bionic Chip (with 5-core GPU).;
+    Capacity: 128GB internal storage;
+    Rear Camera: Dual camera system with 12 MP lenses (main and ultra wide angle).;
+    Front Camera: 12 MP with TrueDepth technology.;
+    Materials: Glass front and back with aluminum frame.;
+    Operating System: iOS 16 (upgradable to later versions).;
+    Connectivity: 5G, Wi-Fi 6, Bluetooth 5.3, NFC.;
+    Battery: Improved battery life with support for fast charging and MagSafe wireless charging.;
+    Security: Face ID for facial recognition;
+    Resistance: Water and dust resistance (IP68).;
+    Others: Compatible with MagSafe accessories.;
     "
   ),
   (
@@ -131,20 +131,20 @@ VALUES
     299,
     "Samsung",
     "Mobile",
-    "Galaxy A15 no pierde su icónico diseño y podrás elegirlo en tres colores: negro, azul y amarillo.",
-    "Samsung Galaxy A15 8/256GB Azul Libre",
-    "Pantalla: Aproximadamente 6.5 pulgadas, resolución HD+.
-    Procesador: Chipset de gama media (el modelo exacto puede variar, generalmente Exynos o Snapdragon dependiendo de la región).
-    Capacidad: 256GB de almacenamiento interno, expandible mediante tarjeta microSD.;
-    Memoria RAM: 8GB.;
-    Cámara Trasera: Sistema de triple o cuádruple cámara con un sensor principal (generalmente 48 MP o similar), una cámara ultra gran angular, una cámara macro y un sensor de profundidad.;
-    Cámara Frontal: Aproximadamente 13 MP.;
-    Materiales: Carcasa de plástico con acabado en color Azul.;
-    Sistema Operativo: Android 13 con la capa de personalización One UI.;
-    Conectividad: 4G LTE, Wi-Fi, Bluetooth 5.0, GPS, NFC.;
-    Batería: Aproximadamente 5000 mAh, con soporte para carga rápida.;
-    Seguridad: Sensor de huellas dactilares (ubicado en el lateral o bajo la pantalla) y reconocimiento facial.;
-    Otros: Conector de auriculares de 3.5 mm, puerto USB-C.;
+    "Galaxy A15 does not lose its iconic design and you can choose it in three colors: black, blue and yellow.",
+    "Samsung Galaxy A15 8/256GB Blue Free",
+    "Screen: Approximately 6.5 inches, HD+ resolution.
+    Processor: Mid-range chipset (exact model may vary, usually Exynos or Snapdragon depending on region).
+    Capacity: 256GB internal storage, expandable via microSD card.;
+    RAM memory: 8GB.;
+    Rear Camera: Triple or quad camera system with a main sensor (generally 48 MP or similar), an ultra wide angle camera, a macro camera and a depth sensor.;
+    Front Camera: Approximately 13 MP.;
+    Materials: Plastic casing with blue finish.;
+    Operating System: Android 13 with the One UI customization layer.;
+    Connectivity: 4G LTE, Wi-Fi, Bluetooth 5.0, GPS, NFC.;
+    Battery: Approximately 5000 mAh, with support for fast charging.;
+    Security: Fingerprint sensor (located on the side or under the screen) and facial recognition.;
+    Others: 3.5mm headphone jack, USB-C port;
     "
   ),
   (
@@ -152,42 +152,42 @@ VALUES
     329,
     "Samsung",
     "Mobile",
-    "Este teléfono inteligente está diseñado para hacer que tu día a día sea más impresionante.",
-    "Samsung Galaxy A34 5G 8/256GB Negro Libre + Protector Pantalla",
-    "Pantalla: 6.6 pulgadas Super AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
-    Procesador: MediaTek Dimensity 1080.;
-    Capacidad: 256GB de almacenamiento interno, expandible mediante tarjeta microSD.;
-    Memoria RAM: 8GB.;
-    Cámara Trasera: Triple cámara con sensor principal de 48 MP, ultra gran angular de 8 MP y macro de 5 MP.;
-    Cámara Frontal: 13 MP.;
-    Materiales: Parte delantera de vidrio y trasera de plástico con acabado en color Negro.;
-    Sistema Operativo: Android 13 con la capa de personalización One UI 5.1.;
-    Conectividad: 5G, Wi-Fi 6, Bluetooth 5.2, GPS, NFC.;
-    Batería: 5000 mAh, con soporte para carga rápida de 25W.;
-    Seguridad: Sensor de huellas dactilares bajo la pantalla y reconocimiento facial.;
-    Otros: Conector USB-C, sin conector de auriculares de 3.5 mm, resistencia al agua y polvo IP67.;
-    Accesorios Incluidos: Protector de pantalla.;"
+    "This smartphone is designed to make your everyday life more impressive.",
+    "Samsung Galaxy A34 5G 8/256GB Black Free + Screen Protector",
+    "Display: 6.6 inches Super AMOLED, Full HD+ resolution (1080 x 2400 pixels), 120Hz refresh rate.;
+    Processor: MediaTek Dimensity 1080.;
+    Capacity: 256GB internal storage, expandable via microSD card.;
+    RAM memory: 8GB.;
+    Rear Camera: Triple camera with 48 MP main sensor, 8 MP ultra wide angle and 5 MP macro.;
+    Front Camera: 13 MP.;
+    Materials: Glass front and plastic back with Black finish.;
+    Operating System: Android 13 with the One UI 5.1 customization layer;
+    Connectivity: 5G, Wi-Fi 6, Bluetooth 5.2, GPS, NFC.;
+    Battery: 5000 mAh, with support for 25W fast charging.;
+    Security: Fingerprint sensor under the screen and facial recognition;
+    Others: USB-C connector, without 3.5 mm headphone jack, IP67 water and dust resistance.;
+    Accessories Included: Screen Protector.;"
   ),
   (
     6,
     408,
     "Samsung",
     "Mobile",
-    "Este dispositivo es una verdadera maravilla que destaca en su categoría.",
-    "Samsung Galaxy A54 5G 8/128GB Violeta Libre + Protector Pantalla",
-    "Pantalla: 6.4 pulgadas Super AMOLED, resolución Full HD+ (1080 x 2340 píxeles), tasa de refresco de 120Hz.;
-    Procesador: Exynos 1380.;
-    Capacidad: 128GB de almacenamiento interno, expandible mediante tarjeta microSD.;
-    Memoria RAM: 8GB.;
-    Cámara Trasera: Triple cámara con sensor principal de 50 MP, ultra gran angular de 12 MP y macro de 5 MP.;
-    Cámara Frontal: 32 MP.;
-    Materiales: Parte delantera de vidrio y trasera de plástico con acabado en color Violeta.;
-    Sistema Operativo: Android 13 con la capa de personalización One UI 5.1.;
-    Conectividad: 5G, Wi-Fi 6, Bluetooth 5.3, GPS, NFC.;
-    Batería: 5000 mAh, con soporte para carga rápida de 25W.;
-    Seguridad: Sensor de huellas dactilares bajo la pantalla y reconocimiento facial.;
-    Otros: Conector USB-C, sin conector de auriculares de 3.5 mm, resistencia al agua y polvo IP67.;
-    Accesorios Incluidos: Protector de pantalla.;
+    "This device is a true marvel that stands out in its category.",
+    "Samsung Galaxy A54 5G 8/128GB Violet Free + Screen Protector",
+    "Display: 6.4 inches Super AMOLED, Full HD+ resolution (1080 x 2340 pixels), 120Hz refresh rate.;
+    Processor: Exynos 1380.;
+    Capacity: 128GB of internal storage, expandable via microSD card.;
+    RAM memory: 8GB.;
+    Rear Camera: Triple camera with 50 MP main sensor, 12 MP ultra wide angle and 5 MP macro.;
+    Front Camera: 32 MP.;
+    Materials: Glass front and plastic back with a Violet finish.;
+    Operating System: Android 13 with the One UI 5.1 customization layer;
+    Connectivity: 5G, Wi-Fi 6, Bluetooth 5.3, GPS, NFC.;
+    Battery: 5000 mAh, with support for 25W fast charging.;
+    Security: Fingerprint sensor under the screen and facial recognition;
+    Others: USB-C connector, without 3.5 mm headphone jack, IP67 water and dust resistance.;
+    Accessories Included: Screen Protector.;
     "
   ),
   (
@@ -195,21 +195,21 @@ VALUES
     449,
     "Xiaomi",
     "Mobile",
-    "Redmi Note 13 Pro 5G no solo es un smartphone, es una auténtica revolución en diseño que no pasará desapercibida. Su acabado, que solo se encuentra en terminales premium, atraerá todas las miradas.",
-    "Xiaomi Redmi Note 13 Pro 5G 12/512GB Negro Libre",
-    "Pantalla: 6.67 pulgadas AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
-    Procesador: Qualcomm Snapdragon 7 Gen 1.;
-    Capacidad: 512GB de almacenamiento interno, no expandible mediante tarjeta microSD.;
-    Memoria RAM: 12GB.;
-    Cámara Trasera: Triple cámara con sensor principal de 200 MP, ultra gran angular de 8 MP y macro de 2 MP.;
-    Cámara Frontal: 16 MP.;
-    Materiales: Parte delantera de vidrio y trasera de plástico con acabado en color Negro.;
-    Sistema Operativo: MIUI 14 basado en Android 13.;
-    Conectividad: 5G, Wi-Fi 6, Bluetooth 5.2, GPS, NFC.;
-    Batería: 5000 mAh, con soporte para carga rápida de 67W.;
-    Seguridad: Sensor de huellas dactilares (lateral) y reconocimiento facial.;
-    Otros: Conector USB-C, conector de auriculares de 3.5 mm, altavoces estéreo.;
-    Resistencia: Resistencia al agua y polvo (IP53).;
+    "Redmi Note 13 Pro 5G is not only a smartphone, it is a true revolution in design that will not go unnoticed. Its finish, which is only found in premium terminals, will attract everyone's attention.",
+    "Xiaomi Redmi Note 13 Pro 5G 12/512GB Black Free",
+    "Display: 6.67 inches AMOLED, Full HD+ resolution (1080 x 2400 pixels), 120Hz refresh rate.;
+    Processor: Qualcomm Snapdragon 7 Gen 1.;
+    Capacity: 512GB of internal storage, not expandable via microSD card.;
+    RAM memory: 12GB.;
+    Rear Camera: Triple camera with 200 MP main sensor, 8 MP ultra wide angle and 2 MP macro.;
+    Front Camera: 16 MP.;
+    Materials: Glass front and plastic back with Black finish.;
+    Operating System: MIUI 14 based on Android 13.;
+    Connectivity: 5G, Wi-Fi 6, Bluetooth 5.2, GPS, NFC.;
+    Battery: 5000 mAh, with support for 67W fast charging.;
+    Security: Fingerprint sensor (side) and facial recognition;
+    Others: USB-C connector, 3.5mm headphone jack, stereo speakers.;
+    Resistance: Water and dust resistance (IP53).;
     "
   ),
   (
@@ -217,21 +217,21 @@ VALUES
     229,
     "Xiaomi",
     "Mobile",
-    "Redmi Note 12 cuenta con una triple cámara con IA de 48MP y una pantalla AMOLED de 120 Hz y con protección Corning® Gorilla® Glass para capturar e inmortalizar cualquier imagen con la máxima resolución.",
-    "Xiaomi Redmi Note 12 4/64GB Gris Libre",
-    "Pantalla: 6.67 pulgadas AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
-    Procesador: Qualcomm Snapdragon 4 Gen 1.;
-    Capacidad: 64GB de almacenamiento interno, expandible mediante tarjeta microSD.;
-    Memoria RAM: 4GB.;
-    Cámara Trasera: Triple cámara con sensor principal de 50 MP, ultra gran angular de 8 MP y macro de 2 MP.;
-    Cámara Frontal: 13 MP.;
-    Materiales: Parte delantera de vidrio y trasera de plástico con acabado en color Gris.;
-    Sistema Operativo: MIUI 13 basado en Android 12.;
-    Conectividad: 4G LTE, Wi-Fi 5, Bluetooth 5.1, GPS, NFC.;
-    Batería: 5000 mAh, con soporte para carga rápida de 33W.;
-    Seguridad: Sensor de huellas dactilares (lateral) y reconocimiento facial.;
-    Otros: Conector USB-C, conector de auriculares de 3.5 mm, altavoces estéreo.;
-    Resistencia: Resistencia al agua y polvo (IP53).;
+    "Redmi Note 12 has a 48MP AI triple camera and a 120 Hz AMOLED screen and Corning® Gorilla® Glass protection to capture and immortalize any image with maximum resolution.",
+    "Xiaomi Redmi Note 12 4/64GB Gray Free",
+    "Display: 6.67 inches AMOLED, Full HD+ resolution (1080 x 2400 pixels), 120Hz refresh rate.;
+    Processor: Qualcomm Snapdragon 4 Gen 1.;
+    Capacity: 64GB of internal storage, expandable via microSD card.;
+    RAM memory: 4GB.;
+    Rear Camera: Triple camera with 50 MP main sensor, 8 MP ultra wide angle and 2 MP macro.;
+    Front Camera: 13 MP.;
+    Materials: Glass front and plastic back with Gray finish.;
+    Operating System: MIUI 13 based on Android 12.;
+    Connectivity: 4G LTE, Wi-Fi 5, Bluetooth 5.1, GPS, NFC.;
+    Battery: 5000 mAh, with support for 33W fast charging.;
+    Security: Fingerprint sensor (side) and facial recognition;
+    Others: USB-C connector, 3.5mm headphone jack, stereo speakers.;
+    Resistance: Water and dust resistance (IP53).;
     "
   ),
   (
@@ -239,34 +239,34 @@ VALUES
     399,
     "Xiaomi",
     "Mobile",
-    "Redmi Note 13 Pro no solo es un smartphone, es una auténtica revolución en diseño que no pasará desapercibida.",
-    "Xiaomi Redmi Note 13 Pro 12/512GB Negro Libre",
-    "Pantalla: 6.67 pulgadas OLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
-    Procesador: Qualcomm Snapdragon 7s Gen 2.;
-    Capacidad: 512GB de almacenamiento interno, no expandible mediante tarjeta microSD.;
-    Memoria RAM: 12GB.;
-    Cámara Trasera: Triple cámara con sensor principal de 200 MP, ultra gran angular de 8 MP y macro de 2 MP.;
-    Cámara Frontal: 16 MP.;
-    Materiales: Parte delantera de vidrio y trasera de plástico con acabado en color Negro.;
-    Sistema Operativo: MIUI 14 basado en Android 13.;
-    Conectividad: 5G, Wi-Fi 6, Bluetooth 5.2, GPS, NFC.;
-    Batería: 5100 mAh, con soporte para carga rápida de 67W.;
-    Seguridad: Sensor de huellas dactilares (lateral) y reconocimiento facial.;
-    Otros: Conector USB-C, sin conector de auriculares de 3.5 mm, altavoces estéreo.;
-    Resistencia: Resistencia al agua y polvo (IP53).;"
+    "Redmi Note 13 Pro is not only a smartphone, it is a true revolution in design that will not go unnoticed.",
+    "Xiaomi Redmi Note 13 Pro 12/512GB Black Unlocked",
+    "Display: 6.67 inches OLED, Full HD+ resolution (1080 x 2400 pixels), 120Hz refresh rate.;
+    Processor: Qualcomm Snapdragon 7s Gen 2.;
+    Capacity: 512GB of internal storage, not expandable via microSD card.;
+    RAM memory: 12GB.;
+    Rear Camera: Triple camera with 200 MP main sensor, 8 MP ultra wide angle and 2 MP macro.;
+    Front Camera: 16 MP.;
+    Materials: Glass front and plastic back with Black finish.;
+    Operating System: MIUI 14 based on Android 13.;
+    Connectivity: 5G, Wi-Fi 6, Bluetooth 5.2, GPS, NFC.;
+    Battery: 5100 mAh, with support for 67W fast charging.;
+    Security: Fingerprint sensor (side) and facial recognition;
+    Others: USB-C connector, no 3.5mm headphone jack, stereo speakers.;
+    Resistance: Water and dust resistance (IP53).;"
   ),
   (
     10,
     1239,
     "Gigabyte",
-    "Laptops",
-    "La computadora portátil para juegos GIGABYTE ofrece elementos de juego completamente nuevos de las tendencias futuras, combinados con un potente rendimiento de próxima generación.",
+    "Laptop",
+    "The GIGABYTE gaming laptop offers completely new gaming elements of future trends, combined with powerful next-generation performance.",
     "Gigabyte G5 KF5-53ES353SH Intel Core i5-13500H/16GB/512GB SSD/RTX 4060/15.6",
-    "Procesador: Intel Core i5-13500H;
-    Memoria RAM: 16 GB;
-    Almacenamiento: 512 GB SSD;
-    Tarjeta Gráfica: NVIDIA GeForce RTX 4060;
-    Pantalla: 15.6 pulgadas;
+    "Processor: Intel Core i5-13500H;
+    RAM memory: 16 GB;
+    Storage: 512GB SSD;
+    Graphics Card: NVIDIA GeForce RTX 4060;
+    Screen: 15.6 inches;
     "
   ),
   (
@@ -274,12 +274,12 @@ VALUES
     1549,
     "Acer",
     "Desktop",
-    "Una PC potente y compacta ansiosa por poner a prueba su procesador Intel® Core™ i7 de 12.ª generación.",
-    "Acer Predator Orion 3000 PO3-640 Intel Core i5-12400F/16 GB/1TB SSD/RTX 3070",
-    "Procesador: Intel Core i5-12400F;
-    Memoria RAM: 16 GB;
-    Almacenamiento: 1 TB SSD;
-    Tarjeta Gráfica: NVIDIA GeForce RTX 3070;
+    "A powerful, compact PC eager to put its 12th Gen Intel® Core™ i7 processor to the test.",
+    "Acer Predator Orion 3000 PO3-640 Intel Core i5-12400F/16GB/1TB SSD/RTX 3070",
+    "Processor: Intel Core i5-12400F;
+    RAM memory: 16 GB;
+    Storage: 1TB SSD;
+    Graphics Card: NVIDIA GeForce RTX 3070;
     "
   ),
   (
@@ -287,13 +287,14 @@ VALUES
     279,
     "Lenovo",
     "Tablet",
-    "No hay nada como la deslumbrante pantalla IPS 2K de 26,92 de la Tab M10 Plus de 3.ª generación de 2023.",
-    "Lenovo Tab M10 Plus Gen 3 2023 2K 4/128GB Gris + Funda + Pen",
-    "Pantalla: 10.61 pulgadas con resolución 2K;
-    Memoria RAM: 4 GB;
-    Almacenamiento: 128 GB;
-    Color: Gris;
-    Accesorios incluidos: Funda y Pen (lápiz);
+    "There's nothing like the stunning 26.92 inches 2K IPS display on the 2023 Tab M10 Plus 3rd Gen.",
+    "Lenovo Tab M10 Plus Gen 3 2023 2K 4/128GB Gray + Case + Pen",
+    "
+    Display: 10.61 inches with 2K resolution;
+    RAM memory: 4 GB;
+    Storage: 128 GB;
+    Gray;
+    Accessories included: Case and Pen;
     "
   ),
   (
@@ -301,13 +302,13 @@ VALUES
     224,
     "Origial",
     "Other",
-    "Con la lavadora ORIWM5DW de la marca Origial cuida tu ropa para que quede como nueva mucho más tiempo, seleccionando el programa adecuado entre las 15 opciones disponibles.",
-    "Origial ORIWM5DW Prowash Lavadora Carga Frontal 5Kg D Blanca",
-    "Tipo: Lavadora de carga frontal;
-    Capacidad de carga: 5 kg;
-    Color: Blanca;
-    Clasificación energética: D (según estándares de eficiencia energética);
-    Funciones adicionales: Diversos programas de lavado para diferentes tipos de ropa y niveles de suciedad;
+    "With the ORIWM5DW washing machine from the Origial brand, take care of your clothes so that they stay like new for much longer, selecting the appropriate program among the 15 available options.",
+    "Origial ORIWM5DW Prowash Front Load Washing Machine 5Kg D White",
+    "Type: Front loading washing machine;
+    Load capacity: 5kg;
+    Color: White;
+    Energy classification: D (according to energy efficiency standards);
+    Additional functions: Various washing programs for different types of clothing and levels of dirt;
     "
   ),
   (
@@ -315,46 +316,46 @@ VALUES
     363,
     "Realme",
     "Mobile",
-    "El Realme 12 Pro 5G es un teléfono inteligente que combina un diseño elegante con un rendimiento excepcional.",
-    "Realme 12 Pro 5G 12/256GB Azul Libre",
-    "Pantalla: 6.7 pulgadas AMOLED, resolución Full HD+ (1080 x 2400 píxeles), tasa de refresco de 120Hz.;
-    Procesador: MediaTek Dimensity 1200.;
-    Capacidad: 256GB de almacenamiento interno, no expandible mediante tarjeta microSD.;
-    Memoria RAM: 8GB.;
-    Cámara Trasera: Triple cámara con sensor principal de 108 MP, ultra gran angular de 12 MP y telefoto de 8 MP.;
-    Cámara Frontal: 32 MP.;
-    Materiales: Parte delantera de vidrio y trasera de vidrio con acabado en color Azul.;
-    Sistema Operativo: realme UI 4.0 basado en Android 13.;
-    Conectividad: 5G, Wi-Fi 6, Bluetooth 5.3, GPS, NFC.;
-    Batería: 5000 mAh, con soporte para carga rápida de 65W.;
-    Seguridad: Sensor de huellas dactilares (integrado en pantalla) y reconocimiento facial.;
-    Otros: Conector USB-C, sin conector de auriculares de 3.5 mm, altavoces estéreo.;
-    Resistencia: Resistencia al agua y polvo (IP54).;"
+    "The Realme 12 Pro 5G is a smartphone that combines elegant design with exceptional performance.",
+    "Realme 12 Pro 5G 12/256GB Blue Free",
+    "Display: 6.7 inches AMOLED, Full HD+ resolution (1080 x 2400 pixels), 120Hz refresh rate.;
+    Processor: MediaTek Dimensity 1200.;
+    Capacity: 256GB internal storage, not expandable via microSD card.;
+    RAM memory: 8GB.;
+    Rear Camera: Triple camera with 108 MP main sensor, 12 MP ultra wide angle and 8 MP telephoto.;
+    Front Camera: 32 MP.;
+    Materials: Glass front and glass back with Blue finish.;
+    Operating System: realme UI 4.0 based on Android 13.;
+    Connectivity: 5G, Wi-Fi 6, Bluetooth 5.3, GPS, NFC.;
+    Battery: 5000 mAh, with support for 65W fast charging.;
+    Security: Fingerprint sensor (integrated in screen) and facial recognition;
+    Others: USB-C connector, no 3.5mm headphone jack, stereo speakers.;
+    Resistance: Water and dust resistance (IP54).;"
   ),
   (
     15,
     899,
     "Gigabyte",
     "Laptop",
-    "La computadora portátil para juegos GIGABYTE ofrece elementos de juego completamente nuevos de las tendencias futuras, combinados con un potente rendimiento de próxima generación. ",
+    "The GIGABYTE gaming laptop offers completely new gaming elements of future trends, combined with powerful next-generation performance.",
     "Gigabyte G5 KF5-53ES353SH",
-    "Pantalla: 15.6 pulgadas IPS, resolución Full HD (1920 x 1080 píxeles), tasa de refresco de 144Hz.;
-    Procesador: Intel Core i5-12500H.;
-    Capacidad: 512GB SSD de almacenamiento interno.;
-    Memoria RAM: 16GB DDR4.;
-    Tarjeta Gráfica: NVIDIA GeForce RTX 4060 con 8GB de VRAM.;
-    Cámara Frontal: HD (720p).;
-    Materiales: Chasis de plástico con acabado en color negro.;
-    Sistema Operativo: Windows 11 Home.;
-    Conectividad: Wi-Fi 6, Bluetooth 5.2, Ethernet.;
-    Puertos: 1x USB-C, 3x USB-A 3.2, 1x HDMI 2.0, 1x Mini DisplayPort, 1x RJ45, 1x lector de tarjetas SD, 1x conector de auriculares/micrófono (3.5 mm).;
-    Batería: 48.96 Wh, con adaptador de corriente de 150W.;
-    Teclado: Teclado retroiluminado RGB.;
-    Audio: Altavoces estéreo con tecnología DTS:X Ultra.;
-    Seguridad: Lector de huellas dactilares.;
-    Peso: 2.2 kg.;
-    Dimensiones: 361 x 258 x 27.9 mm.;"
-  ),;
+    "Display: 15.6 inches IPS, Full HD resolution (1920 x 1080 pixels), 144Hz refresh rate.;
+    Processor: Intel Core i5-12500H.;
+    Capacity: 512GB SSD internal storage.;
+    RAM memory: 16GB DDR4.;
+    Graphics Card: NVIDIA GeForce RTX 4060 with 8GB of VRAM.;
+    Front Camera: HD (720p).;
+    Materials: Plastic chassis with black finish.;
+    Operating System: Windows 11 Home.;
+    Connectivity: Wi-Fi 6, Bluetooth 5.2, Ethernet.;
+    Ports: 1x USB-C, 3x USB-A 3.2, 1x HDMI 2.0, 1x Mini DisplayPort, 1x RJ45, 1x SD card reader, 1x headphone/microphone jack (3.5 mm).;
+    Battery: 48.96 Wh, with 150W power adapter.;
+    Keyboard: RGB backlit keyboard;
+    Audio: Stereo speakers with DTS:X Ultra technology;
+    Security: Fingerprint reader.;
+    Weight: 2.2 kg.;
+    Dimensions: 361 x 258 x 27.9 mm.;"
+  );
 
 -- CLIENTES
 INSERT INTO `client` (`idClient`, `dni`, `username`, `name`, `lastname`, `province`, `cp`, `address`) VALUES
