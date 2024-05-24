@@ -466,6 +466,95 @@ VALUES
     Storage: 1TB SSD;
     Graphics Card: NVIDIA GeForce RTX 4070;
     Screen Size: 16 inches."
+  ),(
+    24,
+    848,
+    "MSI",
+    "Laptop",
+    "El Thin GF63 impulsa las demandas multitarea diarias con hasta el último procesador Intel® Core™ de 12.ª generación y los nuevos gráficos Intel® Arc™ A370M. Disfruta de cautivadores juegos, diseño y experiencia de transmisión.",
+    "MSI Thin GF63 12UC-688XES Intel Core i7-12650H/16GB/1TB SSD/RTX 3050/15.6",
+    "Model: MSI Thin GF63 12UC-688XES"; 
+    "Processor: Intel Core i7-12650H (10 cores, 16 threads, 2.3GHz base frequency, up to 4.7GHz with Intel Turbo Boost); 
+    RAM Memory: 16GB DDR4 3200MHz; 
+    Storage: 1TB NVMe SSD; 
+    Graphics Card: NVIDIA GeForce RTX 3050 with 4GB GDDR6 dedicated memory; 
+    Screen: 15.6-inch Full HD (1920x1080) IPS display with 144Hz refresh rate; 
+    Operating System: Windows 11 Home; 
+    Connectivity: Wi-Fi 6, Bluetooth 5.2; 
+    Ports: 1 x USB 3.2 Gen 1 Type-C, 3 x USB 3.2 Gen 1 Type-A, 1 x HDMI, 1 x RJ-45 Ethernet, 1 x Audio combo jack; 
+    Keyboard: Backlit keyboard (Red); 
+    Battery: 3-cell, 52Wh; 
+    Weight: 1.86 kg (4.1 lbs); 
+    Dimensions: 359 x 254 x 21.7 mm"
+  ),(
+    25,
+    628,
+    "Lenovo",
+    "Laptop",
+    "Destaque en cualquier lugar con la computadora portátil Lenovo IdeaPad Slim 3, diseñada para ser liviana y delgada, de construcción robusta con resistencia y durabilidad de grado militar para soportar caídas y condiciones de viaje extremas.",
+    "Lenovo IdeaPad Slim 3 15IAH8 Intel Core i5-12450H/16GB/1TB SSD/15.6",
+    "Processor: Intel Core i5-12450H (8 cores, 12 threads, 2.0GHz base frequency, up to 4.4GHz with Intel Turbo Boost); 
+    RAM Memory: 16GB DDR4; 
+    Storage: 1TB NVMe SSD; 
+    Screen: 15.6-inch Full HD (1920x1080) IPS display; 
+    Operating System: Windows 11 Home; 
+    Connectivity: Wi-Fi 6, Bluetooth 5.1; 
+    Ports: 1 x USB 3.2 Gen 1 Type-C, 2 x USB 3.2 Gen 1 Type-A, 1 x HDMI, 1 x SD card reader, 1 x Audio combo jack; 
+    Keyboard: Backlit keyboard; 
+    Battery: 3-cell, 45Wh; 
+    Weight: 1.7 kg (3.75 lbs); 
+    Dimensions: 359.2 x 236.5 x 19.9 mm"
+  ),(
+    26,
+    400,
+    "OnePlus",
+    "Mobile",
+    "OnePlus Nord 3 5G presenta un diseño sencillo y discreto que tiene aspecto de algo mucho más caro. El color Tempest Gray incorpora una tempestuosa cubierta de cristal de seda 2.8D con una textura esmerilada antirreflejos y antihuellas",
+    "OnePlus Nord 3 5G 16/256GB Tempest Gray Libre",
+    "RAM Memory: 16GB; 
+    Storage: 256GB; 
+    Color: Tempest Gray; 
+    Network: 5G; 
+    Screen: 6.74-inch Fluid AMOLED, 120Hz refresh rate; 
+    Processor: MediaTek Dimensity 9000; 
+    Camera: Triple rear camera (50MP main, 8MP ultra-wide, 2MP macro), 16MP front camera; 
+    Battery: 4500mAh, 80W fast charging; 
+    Operating System: OxygenOS based on Android 12; 
+    Connectivity: Wi-Fi 6, Bluetooth 5.2, NFC; 
+    Ports: USB Type-C; 
+    Dimensions: 163.2 x 75.9 x 8.3 mm; 
+    Weight: 189 grams"
+  ),(
+    27,
+    1459,
+    "Samsung",
+    "Mobile",
+    "La nueva era de la telefonía ha llegado. Con el modelo superior de la nueva gama S, Galaxy S24 Ultra, experimentarás tu smartphone como nunca antes.",
+    "Samsung Galaxy S24 Ultra 12/256GB Gris Titanium Libre + Cargador",
+    "RAM Memory: 12GB; 
+    Storage: 256GB; 
+    Color: Gris Titanium; 
+    Screen: Dynamic AMOLED 2X, 6.8 inches, 1440 x 3200 pixels resolution; 
+    Processor: Exynos 2200 (octa-core); 
+    Camera: Quad rear camera (108MP main, 12MP ultra-wide, 10MP telephoto, 2MP depth sensor); 
+    Operating System: Android 13 with One UI 5.1; 
+    Connectivity: Wi-Fi 6E, Bluetooth 5.3, NFC; 
+    Dimensions: 164.9 x 75.5 x 8.9 mm"
+  ),(
+    28,
+    400,
+    "PCcom Ready",
+    "Desktop",
+    "Pc Gaming pensado para un uso general en el hogar o en la oficina, el PcCom Ready se presenta como un potente equipo en el que su procesador AMD Ryzen 5, sus 16GB de RAM DDR4, el rápido disco SSD de 1TB M.2 NVMe y la potente gráfica Nvidia RTX 3060 permiten trabajar de forma holgada en muy diferentes tareas, lo que lo hace ideal para entornos domésticos o de oficina.",
+    "PcCom Ready AMD Ryzen 5 5600X / 16GB / 1TB SSD / RTX 3060",
+    "Processor: AMD Ryzen 5 5600X; 
+    RAM Memory: 16GB DDR4; 
+    Storage: 1TB SSD; 
+    Graphics Card: NVIDIA GeForce RTX 3060; 
+    Cooling: Air cooling system; 
+    Connectivity: Wi-Fi, Bluetooth; 
+    Ports: USB, HDMI, DisplayPort, Ethernet; 
+    Operating System: Windows 10 Home"
   )
   ;
 
