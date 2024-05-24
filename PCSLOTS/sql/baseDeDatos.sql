@@ -937,7 +937,18 @@ VALUES
     'Madrid',
     28910,
     'Calle Madera 789'
-  );
+  ),
+    (
+    11,
+    '23232323J',
+    'GOAT',
+    'Michael',
+    'Jordan',
+    'Chicago',
+    60007,
+    'ST The GOAT 23'
+  )
+  ;
 
 -- Insert 30 records into the sale table
 INSERT INTO
